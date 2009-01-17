@@ -4,19 +4,16 @@ filter:
   - textile
 ---
 
-h2. Menu
+* "Mission":/mission.html
 
-
-* Mission
-
-* Events
-
-  * Conferences
-  
 * Activities
 
     * Training
     * Seminars
+
+* Events
+  * Conferences
+  
 * Jobs
 
     * Propose yourself 

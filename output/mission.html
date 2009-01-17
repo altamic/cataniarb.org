@@ -1,15 +1,11 @@
----
-extension: html
-filter:    erb
----
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title><%= @page.title %></title>
-   <meta name="author" content="<%= @page.author %>" />
+   <title>Mission</title>
+   <meta name="author" content="" />
 
    <!--- Blueprint CSS Framework -->
    <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection">
@@ -34,11 +30,37 @@ filter:    erb
    </div>
 
    <div id="side-menu" class="column span-5 prepend-2 first">      
-      <%= render :partial => 'menu' %>
+      <ul>
+	<li><a href="/mission.html">Mission</a></li>
+</ul>
+<ul>
+	<li>Activities</li>
+</ul>
+* Training
+* Seminars
+<ul>
+	<li>Events<br />
+  * Conferences</li>
+	<li>Jobs</li>
+</ul>
+* Propose yourself
+* View Current Offers
+<ul>
+	<li>Press</li>
+	<li>Sponsors</li>
+</ul>
+* Convergent.it
+* Ruby Row
+<ul>
+	<li>Credits</li>
+</ul>
+* Trademarks
+* Disclaimer
    </div>
    
    <div id="main-content" class="column span-15 append-2 last">
-      <%= @content %>
+      <p class="title">Mission</p>
+<p>Vivamus euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse vel nibh ut turpis dictum sagittis. Aliquam vel velit a elit auctor sollicitudin. Nam vel dui vel neque lacinia pretium. Quisque nunc erat, venenatis id, volutpat ut, scelerisque sed, diam. Mauris ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec mattis. Morbi dignissim sollicitudin libero. Nulla lorem.</p>
    </div>
    
    <div id="footer" class="column span-20 prepend-2 append-2 first last" id="footer">
