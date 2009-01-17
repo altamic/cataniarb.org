@@ -19,42 +19,53 @@
 
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen, projection" />
+   
+   <!-- JQuery -->
+   <script src="/javascript/jquery.min.js" type="text/javascript"></script>
+   
+   <!-- Plugins -->
+    <script src="/javascript/curvycorners.js" type="text/javascript"></script>
+   
+   <!-- Behaviour -->
+   <script src="/javascript/behaviour.js"></script>
 </head>
 <body>
 
-<div class="container">
+<div class="rounded container">
 
-   <div id="header" class="column span-20 prepend-2 append-2 first last" id="header">
-     <h1 class="title"><a href="/" title="Home page" alt="Home page">Catania.rb</a></h1>
-     <p class="subtitle">Rubbi per essere felici</p>
+   <div id="header" class="column span-19 first">
+     <h1 class="title"><a href="/" title="Home page" alt="Home page"><span class="red">C</span>a<span class="red">t</span>a<span class="red">n</span>i<span class="red">a</span><span class="monospace">.rb</span></a></h1>
+     <p class="subtitle">Rubbi per essere felice</p>
    </div>
 
-   <div id="side-menu" class="column prepend-1 span-5 append-2 first">      
-      <ul>
-	<li><a href="/mission.html">Mission</a></li>
-	<li><a href="/activities.html">Activities</a></li>
-	<li><a href="/events.html">Events</a></li>
-	<li><a href="/jobs.html">Jobs</a></li>
-	<li><a href="/press.html">Press</a></li>
-	<li><a href="/sponsors.html">Sponsors</a></li>
-	<li><a href="/credits.html">Credits</a></li>
+   <div id="side-menu" class="column span-5 append-1 first">      
+      <div>
+<ul>
+    <li class="round-item"><a href="/">Home</a></li>
+  	<li class="round-item"><a href="/mission.html">Mission</a></li>
+  	<li class="round-item"><a href="/activities.html">Activities</a></li>
+  	<li class="round-item"><a href="/partners.html">Partners</a></li>
+  	<li class="round-item"><a href="/credits.html">Credits</a></li>
 </ul>
+</div>
    </div>
    
-   <div id="main-content" class="column span-13 append-2 last">
+   <div id="main-content" class="rounded column span-13 append-1 last">
       <h1 class="title">Activities</h1>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc congue ipsum vestibulum libero. Aenean vitae justo. Nam eget tellus.</p>
 <h2>Training</h2>
 <p>Nullam mattis, odio ut tempus facilisis, metus nisl facilisis metus, auctor consectetuer felis ligula nec mauris. Vestibulum odio erat, fermentum at, commodo vitae, ultrices et, urna. Mauris vulputate, mi pulvinar sagittis condimentum, sem nulla aliquam velit, sed imperdiet mi purus eu magna. Nulla varius metus ut eros. Aenean aliquet magna eget orci. Class aptent taciti sociosqu ad litora.</p>
 <h2>Seminars</h2>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi et risus. Aliquam nisl. Nulla facilisi. Cras accumsan vestibulum ante. Vestibulum sed tortor. Praesent tempus fringilla elit. Ut elit diam, sagittis in, nonummy in, gravida non, nunc. Ut orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nam egestas, orci eu imperdiet malesuada, nisl purus fringilla odio, quis commodo est orci vitae justo. Aliquam placerat odio tincidunt nulla. Cras in libero. Aenean rutrum, magna non tristique posuere, erat odio eleifend nisl, non convallis est tortor blandit ligula. Nulla id augue.</p>
+<h2><a href="/events.html">Events</a></h2>
    </div>
-   
-   <div id="footer" class="column span-20 prepend-2 append-2 first last" id="footer">
-     <hr />
-     <p>This website was created with <a href="http://webby.rubyforge.org">Webby</a></p>
+   <hr />
+   <div id="footer" class="thin-rounded column span-12 append-2 first" id="footer">
+     blah blah blah blah
    </div>
-
+   <div id="footer2" class="thin-rounded column prepend-2 span-6 last" id="footer">
+     sponsored by <a href="http://webby.rubyforge.org">convergent</a>
+   </div>
 </div>
 </body>
 </html>

@@ -3,13 +3,12 @@ filter:
   - erb
   - textile
 ---
-
-* "Mission":/mission.html
-* "Activities":/activities.html
-* "Events":/events.html
-* "Jobs":/jobs.html
-* "Press":/press.html
-* "Sponsors":/sponsors.html
-* "Credits":/credits.html
-
-
+<div>
+  <ul>
+    <li class="round-item"><a href="/">Home</a></li>
+  	<li class="round-item"><a href="/mission.html">Mission</a></li>
+  	<li class="round-item"><a href="/activities.html">Activities</a></li>
+  	<li class="round-item"><a href="/partners.html">Partners</a></li>
+  	<li class="round-item"><a href="/credits.html">Credits</a></li>
+  </ul>
+</div>
