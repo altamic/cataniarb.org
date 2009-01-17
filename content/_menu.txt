@@ -1,0 +1,33 @@
+---
+filter: 
+  - erb
+  - textile
+---
+
+h2. Menu
+
+
+* Mission
+
+* Events
+
+  * Conferences
+  
+* Activities
+
+    * Training
+    * Seminars
+* Jobs
+
+    * Propose yourself 
+    * View Current Offers
+* Press
+* Sponsors
+
+ * Convergent.it
+ * Ruby Row
+* Credits
+
+    * Trademarks
+    * Disclaimer
+
