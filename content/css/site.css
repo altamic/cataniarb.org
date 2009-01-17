@@ -4,8 +4,12 @@ filter:    erb
 layout:    nil   # no layout
 
 color:
+  color:       "#003DC7"
   border:      "#ddd"
   header:      "#111"
+  background:  "#0D2054"
+  background2: "#FFFEBF"
+  background3:  "#e0e0e0"
   link:        "#125AA7"
   link-hover:  "#000"
   blockquote:  "#666"
@@ -16,7 +20,7 @@ color:
 ---
 
 body {
-  font-family: Verdana, "Bitstream Vera Sans", sans-serif;
+  font-family: Verdana, "Bitstream Vera Sans", sans-serif; background:<%= @page.color['background3'] %>
 }
 
 /* Headings
@@ -57,23 +61,26 @@ p,li { font-size: 130%; }
 p.quiet { color: <%= @page.color['quiet'] %>; }
 .alt    { color: <%= @page.color['alt'] %>; }
 
-p.title {
+h1.title {
   color: #111;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 2em;
+  font-size: 3em;
+}
+
+p.subtitle {	
   margin-bottom: 0.75em;
 }
 
-#header { height:280; background:lightblue; margin-bottom:12px;}
-#header p.title { font-size: 2.4em; line-height: 1; margin-top: 0.5em; margin-bottom: 0.5em; }
+#header { height:280; background:<%= @page.color['background'] %>; margin-bottom:12px;}
+#header h1.title { font-size: 4em; line-height: 1; margin-top: 12px; margin-bottom: 0.5em; }
 #header p.subtitle { font-size: 1.4em; line-height: 1; margin-bottom:20px; }
 
-#side-menu { font-size:140%;}
-#side-menu ul {}
-#side-menu li {}
-#side-menu li a {}
+#side-menu { font-size:180%;}
+#side-menu ul {background:<%= @page.color['background'] %>; }
+#side-menu li { list-style: none; padding-left:16px; padding-right:18px;  }
+#side-menu li a {text-decoration:none; }
 
 #main-content {}
-.container { border: 1px solid #999; }
+.container { margin-top:12px; border: 6px solid #999; background:<%= @page.color['background2'] %>; }
 
 /* EOF */

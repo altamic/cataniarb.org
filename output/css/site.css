@@ -1,6 +1,6 @@
 
 body {
-  font-family: Verdana, "Bitstream Vera Sans", sans-serif;
+  font-family: Verdana, "Bitstream Vera Sans", sans-serif; background:#e0e0e0
 }
 
 /* Headings
@@ -41,23 +41,26 @@ p,li { font-size: 130%; }
 p.quiet { color: #666; }
 .alt    { color: #666; }
 
-p.title {
+h1.title {
   color: #111;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 2em;
+  font-size: 3em;
+}
+
+p.subtitle {	
   margin-bottom: 0.75em;
 }
 
-#header { height:280; background:lightblue; margin-bottom:12px;}
-#header p.title { font-size: 2.4em; line-height: 1; margin-top: 0.5em; margin-bottom: 0.5em; }
+#header { height:280; background:#0D2054; margin-bottom:12px;}
+#header h1.title { font-size: 4em; line-height: 1; margin-top: 12px; margin-bottom: 0.5em; }
 #header p.subtitle { font-size: 1.4em; line-height: 1; margin-bottom:20px; }
 
-#side-menu { font-size:140%;}
-#side-menu ul {}
-#side-menu li {}
-#side-menu li a {}
+#side-menu { font-size:180%;}
+#side-menu ul {background:#0D2054; }
+#side-menu li { list-style: none; padding-left:16px; padding-right:18px;  }
+#side-menu li a {text-decoration:none; }
 
 #main-content {}
-.container { border: 1px solid #999; }
+.container { margin-top:12px; border: 6px solid #999; background:#FFFEBF; }
 
 /* EOF */
