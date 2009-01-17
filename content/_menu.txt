@@ -8,15 +8,8 @@ filter:
 * "Activities":/activities.html
 * "Events":/events.html
 * "Jobs":/jobs.html
+* "Press":/press.html
+* "Sponsors":/sponsors.html
+* "Credits":/credits.html
 
-
-* Press
-* Sponsors
-
- * Convergent.it
- * Ruby Row
-* Credits
-
-    * Trademarks
-    * Disclaimer
 
