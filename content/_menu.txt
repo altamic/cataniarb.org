@@ -5,19 +5,11 @@ filter:
 ---
 
 * "Mission":/mission.html
+* "Activities":/activities.html
+* "Events":/events.html
+* "Jobs":/jobs.html
 
-* Activities
 
-    * Training
-    * Seminars
-
-* Events
-  * Conferences
-  
-* Jobs
-
-    * Propose yourself 
-    * View Current Offers
 * Press
 * Sponsors
 
