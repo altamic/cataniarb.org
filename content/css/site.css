@@ -5,14 +5,14 @@ layout:    nil   # no layout
 
 color:
   blue:        "#003DC7"
-  red:         "#FF0000"
-  border:      "#ddd"
+  red:         "#db2124"
+  border:      "white"
   header:      "#ff0000"
   background:  "#0D2054"
-  background2: "#FFFEBF"
-  background3:  "#e0e0e0"
-  link:        "#899798"
-  link-hover:  "#899798"
+  background2: "#003DC7"
+  background3:  "#cacaca"
+  link:        "#ff6600"
+  link-hover:  "#ff9900"
   blockquote:  "#666"
   box-bg:      "#eee"
   highlight:   "#B2CCFF"
@@ -21,7 +21,7 @@ color:
 ---
 
 body {
-  font-family: Verdana, "Bitstream Vera Sans", sans-serif; background: <%= @page.color['background3'] %> url('/images/background1.jpg') no-repeat fixed center;
+  font-family: Verdana, "Bitstream Vera Sans", sans-serif; background: <%= @page.color['background3'] %> url('../images/7.png') repeat-x top;
 }
 
 /* Headings
@@ -73,20 +73,33 @@ p.subtitle {
   margin-bottom: 0.75em;
 }
 
-#header { height:72px;  margin-bottom:12px; }
+#header { 
+	background: white url('../images/header.png') center no-repeat; 
+	height:180px;
+	margin-bottom:12px;
+	margin:auto;
+	text-align:right;
+
+}
 
 #header h1.title {
-	font-size: 300%;
 	font-weight:bold;
 	line-height: 1px; 
 	margin: 26px 0px 12px 0;
 	padding-bottom:4px;
-	text-align:left;
+	color:black;
+		visibility:hidden;
+
 }
-#header h1.title a {text-decoration: none; 	color:<%= @page.color['blue'] %>;}
+#header h1.title a {
+ font-family: 'Courier 10 Pitch','Terminal', monospace; font-weight:bold;
+	text-decoration: none; 	color:<%= @page.color['blue'] %>;
+}
+
 #header p.subtitle { font-size: 12px;
-	font-family: Monaco, 'Courier New', 'Terminal', monospace; line-height: 1; margin:0 10px 0 10px; 
-		text-align:left;}
+	 line-height: 1; margin:0 10px 0 10px; 
+		visibility:hidden;
+	}
 
 #banner {}
 
@@ -109,7 +122,7 @@ p.subtitle {
 	
 #side-menu li a { padding-left:6px; padding-right:6px;}
 
-#main-content {margin-top:10px; background:<%= @page.color['border'] %>;}
+#main-content {margin-top:10px; background:<%= @page.color['border'] %>; font-family: 'Courier 10 Pitch','Terminal', monospace; font-size:11px;}
 #main-content h1 {color:<%= @page.color['blue'] %>; font-weight:bold;}
 .container { 
 	margin-top:12px; 
@@ -170,6 +183,8 @@ hr {visibility:hidden;}
 
 .red {color:<%= @page.color['red'] %>;}
 .blue {color:<%= @page.color['blue'] %>;}
-.monospace {color:#333; font-family: Monaco, 'Courier New', 'Terminal', monospace; letter-spacing:-1px; font-size:28px;}
+.monospace {color:#333; font-family: 'Courier 10 Pitch','Terminal', monospace; font-weight:bold; letter-spacing:-1px; font-size:32px;}
 
+
+#footer {color:white; background:<%= @page.color['background2'] %>; text-align:center; font-weight:bold;}
 /* EOF */

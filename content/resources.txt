@@ -1,0 +1,26 @@
+---
+title:      Risorse Utili
+author:       Michelangelo Altamore
+created_at: 2009-01-25 20:23:36.065844 +01:00
+filter:
+  - erb
+  - textile
+---
+h1(title). <%= h(@page.title) %>
+
+Ruby è un linguaggio facile da imparare ed in rete ci sono molte risorse interessanti che possono aiutarti. Se hai qualche minuto libero puoi provare "online":http://tryruby.hobix.com/ alcuni elementi della sua "sintassi":http://www.ruby-lang.org/en/documentation/quickstart/2/.
+
+Di seguito trovi un breve elenco di links utili.
+
+
+h2. Siti Web
+* "Ruby tutorial":http://www.math.umd.edu/~dcarrera/ruby/0.3/  di Daniel Carrera
+* "Ruby basic tutorial":http://www.troubleshooters.com/codecorn/ruby/basictutorial.htm e "Ruby the right way":http://www.troubleshooters.com/codecorn/ruby/rubyrightway.htm di Steve Litt
+* "Programming Ruby [The Pickaxe]":http://www.ruby-doc.org/docs/ProgrammingRuby/ 1<sup>ma</sup> edizione di Dave Thomas
+
+h2. Libri
+
+* "The Ruby Programming Language":http://oreilly.com/catalog/9780596516178/ di "David Flanagan":http://www.davidflanagan.com/ e "Yukihiro Matsumoto":http://en.wikipedia.org/wiki/Yukihiro_Matsumoto
+
+* "Programming Ruby" di Dave Thomas
+

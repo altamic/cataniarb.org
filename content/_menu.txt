@@ -5,10 +5,10 @@ filter:
 ---
 <div>
   <ul>
-    <li class="round-item"><a href="/">Home</a></li>
-  	<li class="round-item"><a href="/mission.html">Mission</a></li>
-  	<li class="round-item"><a href="/activities.html">Activities</a></li>
-  	<li class="round-item"><a href="/partners.html">Partners</a></li>
-  	<li class="round-item"><a href="/credits.html">Credits</a></li>
+    <li class="round-item"><a href="index.html">News</a></li>
+  	<li class="round-item"><a href="mission.html">Obiettivi</a></li>
+  	<li class="round-item"><a href="activities.html">Attività</a></li>
+  	<li class="round-item"><a href="resources.html">Risorse</a></li>
+  	<li class="round-item"><a href="credits.html">Crediti</a></li>
   </ul>
 </div>

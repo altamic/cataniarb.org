@@ -1,15 +1,14 @@
 ---
-title:       Catania.rb
-created_at:  2008-08-02 14:06:40.000000 -06:00
+title:       catania.rb - Catania Ruby User Group
+author:       Michelangelo Altamore
+created_at:  2009-01-12 14:06:40.000000 -06:00
 filter:
   - erb
   - textile
 ---
-h1(title). Benvenuto su <%= h(@page.title) %>
+h1(title). News
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi et risus. Aliquam nisl. Nulla facilisi. Cras accumsan vestibulum ante. Vestibulum sed tortor. Praesent tempus fringilla elit. Ut elit diam, sagittis in, nonummy in, gravida non, nunc. Ut orci.
+h2. 25 Gennaio 2009: nasce catania.rb <br/>il Catania Ruby User Group 
 
-bq. Nullam mattis, odio ut tempus facilisis, metus nisl facilisis metus, auctor consectetuer felis ligula nec mauris. Vestibulum odio erat, fermentum at, commodo vitae, ultrices et, urna. Mauris vulputate, mi pulvinar sagittis condimentum, sem nulla aliquam velit, sed imperdiet mi purus eu magna. Nulla varius metus ut eros. Aenean aliquet magna eget orci. Class aptent taciti sociosqu ad litora.
-
-
-
+Ciao! E' con estremo piacere che Alessandro ed io annunciamo la nascita di *catania.rb*, il Catania Ruby User Group! Nasce per far conoscere ai programmatori catanesi la scandalosa piacevolezza della programmazione con "Ruby":http://en.wikipedia.org/wiki/Ruby_(programming_language, il linguaggio di programmazione inventato da  "Yukihiro Matsumoto":http://en.wikipedia.org/wiki/Yukihiro_Matsumoto. Per far parte di catania.rb basta condividerne gli "obiettivi":mission.html ed iscriverti al "gruppo di discussione":mailto:catania-ruby-user-group@googlegroups.com. Puoi navigare sul sito per vedere le "attivita'":activities.html e le "risorse":resources.html disponibili o sottoscrivere il "newsfeed":http://groups.google.com/group/catania-ruby-user-group/feeds della mailing list per essere al corrente degli "argomenti di discussione":http://groups.google.com/group/catania-ruby-user-group.
+ -*Michelangelo*

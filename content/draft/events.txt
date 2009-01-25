@@ -1,0 +1,22 @@
+Ruby: introduzione al linguaggio
+45'
+
+Git: Gestire contenuti
+45'
+
+Rails: 
+45'
+
+Shoes: Applicazioni desktop multipiattaforma
+30'
+
+Arduino: Comunicazione periferiche hardware in ruby
+30'
+
+Ruby is better
+
+compile/
+
+
+
+
