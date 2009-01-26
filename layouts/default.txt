@@ -59,5 +59,6 @@ filter: erb
       blah blah blah blah
    </div> -->
 </div>
+<% render :partial => 'stats' %>
 </body>
 </html>
