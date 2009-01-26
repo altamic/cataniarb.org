@@ -12,3 +12,11 @@ filter:
   	<li class="round-item"><a href="credits.html">Crediti</a></li>
   </ul>
 </div>
+
+<div class="round-item">
+    <b>Iscriviti al <a href="http://groups.google.com/group/catania-ruby-user-group">Catania Ruby User Group</a></b>
+    <form action="http://groups.google.com/group/catania-ruby-user-group/boxsubscribe">
+    Email: <input type=text name=email>
+    <input type=submit name="sub" value="Iscriviti">
+  </form>
+</div>
