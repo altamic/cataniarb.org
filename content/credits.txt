@@ -1,5 +1,5 @@
 ---
-title:      Credits
+title:      Crediti
 author:     Michelangelo Altamore
 created_at: 2009-01-17 17:55:03.891894 +01:00
 filter:
@@ -8,8 +8,26 @@ filter:
 ---
 h1(title). <%= h(@page.title) %>
 
+h2(#logo-catania.rb). Ruby e u Tuppetturu
 
-h2. Trademarks e Disclaimer
+Cosa ci fa la "tradizionale trottola di legno siciliana":http://scn.wikipedia.org/wiki/Tuppètturu come logo di un Ruby User Group? A questa domanda risponde Alessandro, al quale e' venuta in mente l'idea, che nella mailing list spiega:
+
+bq. Ruby e' un linguaggio inventato per rendere felici i programmatori, per ridurre le seccature tipiche dei moderni linguaggi di programmazione e rendere piacevole l'arte del programmare.
+Ti sembra esagerato? Questi sono gli obiettivi principali di chi ha progettato il linguaggio. Basta entrare in contatto con uno qualunque dei Ruby User Group, per accorgerti dell'entusiasmo dei partecipanti. Se prendi il simbolo di ruby e lo smussi un po' cosa ottieni?
+
+bq. Se sei Siciliano, e magari non sei troppo giovane, la risposta e' scontata: un tuppetturu :-D (o tuppettu in alcune zone). 
+Una trottola in legno, un oggetto che ha saputo divertire generazione di bambini e adulti in Sicilia.
+Ed e' proprio questo il simbolo che e' stato scelto dal Catania Ruby User Group.
+Oltre alla forma, con un po' di fantasia :-) sono riuscito a trovare altre similitudini: il tuppetturu e' velocita', semplicita', equilibrio e tecnica.
+
+bq. L'iniziale semplicita' di Ruby permette un approccio molto diretto a chi vuole impararlo. Solo con la pratica pero' si apprezzerano gli aspetti piu' sottili del linguaggio, che lo rendono ben piu' espressivo e veloce di molti altri.
+Allo stesso modo i virtuosi del tuppetturu sanno che non e' difficile farlo girare a terra, ma riuscire a farlo saltare con la corda e continuare a farlo girare sulla mano e' un altra cosa: e' il frutto della pratica e della passione.
+
+bq. Ruby e' ovviamente piu' complesso di una trottola, ma se mio nonno con il tuppetturu e' capace di fantastiche performance, cosa sarete voi capaci di fare con Ruby?
+
+bq. --Alessandro
+
+h2(#trademarks). Marchi Registrati
 
 Ruby on Rails e' un marchio registrato da David Heineimer Hansson.
 
