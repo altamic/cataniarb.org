@@ -14,6 +14,8 @@ Di seguito trovi un breve elenco di links utili.
 
 
 h2. Siti Web
+
+* "Ruby Programming Wiki Book":http://en.wikibooks.org/wiki/Ruby_Programming
 * "Ruby tutorial":http://www.math.umd.edu/~dcarrera/ruby/0.3/  di Daniel Carrera
 * "Ruby basic tutorial":http://www.troubleshooters.com/codecorn/ruby/basictutorial.htm e "Ruby the right way":http://www.troubleshooters.com/codecorn/ruby/rubyrightway.htm di Steve Litt
 * "Programming Ruby [The Pickaxe]":http://www.ruby-doc.org/docs/ProgrammingRuby/ 1<sup>ma</sup> edizione di Dave Thomas
