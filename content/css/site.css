@@ -1,189 +1,249 @@
----
-extension:	css
-filter:	erb
-layout:	nil
-color:
-  blue:        "#003DC7"
-  red:         "#db2124"
-  border:      "white"
-  header:      "#ff0000"
-  background:  "#0D2054"
-  background2: "#003DC7"
-  background3: "#d4d4d4"
-  link:        "#ff6600"
-  link_hover:  "#ff9900"
-  blockquote:  "#666"
-  box_bg:      "#eee"
-  highlight:   "#B2CCFF"
-  quiet:       "#666"
-  alt:         "#666"
----
+
+* {
+	margin: 0;
+	padding: 0;
+}
 
 body {
-  font-family: Verdana, "Bitstream Vera Sans", sans-serif; background: <%= @page.color['background3'] %> url('../images/7.png') repeat-x top;
+	margin: 20px 0;
+	background: #fff;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #7F7777;
 }
 
-/* Headings
- * --------------------------------------------------------------------- */
-h1,h2,h3,h4,h5,h6 { color: <%= @page.color['header'] %>; }
-
-/* Text Elements
- * --------------------------------------------------------------------- */
-a                 { color: <%= @page.color['link'] %>; text-decoration:none; }
-a:hover           { color: <%= @page.color['link_hover'] %>; }
-blockquote        { color: <%= @page.color['blockquote'] %>; }
-
-pre {
-  background: <%= @page.color['box_bg'] %>;
-  border:     1px solid <%= @page.color['border'] %>;
+h1, h2, h3 {
+	font-weight: normal;
+	color: #ED2024;
 }
 
-hr {
-  background: <%= @page.color['highlight'] %>;
-  color:      <%= @page.color['highlight'] %>;
+h1 { font-size: 182%; }
+h2 { font-size: 122%; }
+h3 { font-size: 100%; }
+
+p, ul, ol {
+	margin-bottom: 20px;
+	line-height: 167%;
+	font-size: 85%;
 }
 
-/* Tables
- * --------------------------------------------------------------------- */
-table {
-  border-top:     1px solid <%= @page.color['border'] %>;
-  border-left:    1px solid <%= @page.color['border'] %>;
-}
-th,td {
-  border-bottom:  1px solid <%= @page.color['border'] %>;
-  border-right:   1px solid <%= @page.color['border'] %>;
+a {
+  text-decoration:none;
 }
 
-/* Default Classes
- * --------------------------------------------------------------------- */
-
-p,li { font-size: 130%; }
-p.quiet { color: <%= @page.color['quiet'] %>; }
-.alt    { color: <%= @page.color['alt'] %>; }
-
-h1.title {
-  color: #111;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 3em;
-
+a:link {
+	color: #0AAAFD;
 }
 
-p.subtitle {	
-  margin-bottom: 0.75em;
+a:hover {
+	text-decoration: none;
+	color: #ED2024;
 }
 
-#header { 
-	background: white url('../images/header.png') center no-repeat; 
-	height:180px;
-	margin-bottom:12px;
-	margin:auto;
-	text-align:right;
-
+a:visited {
+  color: #0AAAFD;
 }
 
-#header h1.title {
-	font-weight:bold;
-	line-height: 1px; 
-	margin: 26px 0px 12px 0;
-	padding-bottom:4px;
-	color:black;
-		visibility:hidden;
-
-}
-#header h1.title a {
- font-family: 'Courier 10 Pitch','Terminal', monospace; font-weight:bold;
-	text-decoration: none; 	color:<%= @page.color['blue'] %>;
+a:visited {
+  color: #0AAAFD;
 }
 
-#header p.subtitle { font-size: 12px;
-	 line-height: 1; margin:0 10px 0 10px; 
-		visibility:hidden;
-	}
-
-#banner {}
-
-#side-menu {
-	font: bold 150% Verdana, Tahoma, sans;
-	letter-spacing:3px; 
-	margin-top:10px; 
-	overflow:auto; }
-#side-menu ul { margin:auto;}
-#side-menu li { 
-	text-align:center;
-	background:<%= @page.color['background'] %>;
-	list-style: none;
-	letter-spacing:-1px;
-	margin-bottom:8px;  
- 
-	padding-top:3px; 
-	padding-bottom:12px;
-	}
-	
-#side-menu li a { padding-left:6px; padding-right:6px;}
-
-#main-content {margin-top:10px; background:<%= @page.color['border'] %>; font-family: 'Courier 10 Pitch','Terminal', monospace; font-size:11px;}
-#main-content h1 {color:<%= @page.color['blue'] %>; font-weight:bold;}
-.container { 
-	margin-top:12px; 
-	background:<%= @page.color['background2'] %>;
-	opacity: 0.85;
-	-moz-opacity: 0.85;
-	filter:alpha(opacity=85); 
-}
-
-.rounded
-{
-    margin: 0 auto;
-    border: 0px solid <%= @page.color['border'] %>;
-    padding: 10px;
-    text-align: left;
-    border: 6px solid <%= @page.color['border'] %>;
-    margin-top: 20px;
-    margin-bottom: 10px;
-
-    /* Do rounding (native in Firefox and Safari, CC in IE) */
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    CCborderRadius: 15px;
-}
-
-
-.round-item
-{
-    margin: 0 auto;
-    border: 0px solid <%= @page.color['background2'] %>;
-    padding: 6px;
-    text-align: left;
-    border: 3px solid <%= @page.color['border'] %>;
-    margin-bottom: 10px;
-
-    /* Do rounding (native in Firefox and Safari, CC in IE) */
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    CCborderRadius: 5px;
-}
-
-.thin-rounded {
-	margin: 0 auto;
-  border: 0px solid <%= @page.color['border'] %>;
-  padding: 10px;
-  text-align: left;
-  border: 3px solid <%= @page.color['border'] %>;
-  margin-top: 20px;
-  margin-bottom: 10px;
-
+#container {
+  background:#fafafa;
+  width:800px;
+  margin:auto;
   /* Do rounding (native in Firefox and Safari, CC in IE) */
+  border:2px solid #e0e0e0;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   CCborderRadius: 15px;
 }
 
-hr {visibility:hidden;}
+#header {
+	width: 770px;
+	height: 100px;
+	margin: 0 auto;
+}
 
-.red {color:<%= @page.color['red'] %>;}
-.blue {color:<%= @page.color['blue'] %>;}
-.monospace {color:#333; font-family: 'Courier 10 Pitch','Terminal', monospace; font-weight:bold; letter-spacing:-1px; font-size:32px;}
+#logo {
+	float: left;
+	width: 240px;
+  height:100px;	
+	background: url('../images/cataniarb_logo.png') no-repeat left;
+}
 
+#logo h1 {
+  font-family: 'courier new', monospace;
+  font-weight:bold;
+  font-size:22px;
+	padding-top: 20px;
+	padding-left: 88px;
+	text-align: center;
+}
 
-#footer {color:white; background:<%= @page.color['background2'] %>; text-align:center; font-weight:bold;}
-/* EOF */
+#logo h1 a {
+	color: #000;  
+	text-decoration: none;
+}
+
+#logo h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #B3A7A0;
+	padding-left: 88px;	
+}
+
+#menu {
+  font-weight:bold;
+	float: left;
+	padding-left:3px;
+	width: 525px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+  font-size:14px;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 50px;
+	padding: 30px 15px 0 15px;
+	background: url('../images/separator.gif') no-repeat;
+	text-decoration: none;
+	font-size: 114%;
+	color:#d1c8cb;
+}
+
+#menu a:hover {
+	color: #ED2024;
+  background:url('../images/menu_bg.png');
+}
+
+#splash {
+	width: 770px;
+	height: 180px;
+	margin: 0 auto;
+	background: url('../images/splash_left_02.jpg') no-repeat;
+	color:white;
+	text-align:center;
+  /*  rounded corner on the left */
+}
+#splash form {
+  display:inline;
+}
+
+#splash span {
+	float: right;
+	width: 460px;
+	height: 70px;
+	margin: 0;
+	padding: 110px 20px 0 50px;
+	background: #a8a8a8 url('../images/splash_right_04.jpg') no-repeat;
+	/*  rounded corner on the right */
+}
+
+#splash span p {
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+  filter:alpha(opacity=50);
+  text-align: right;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top:-10px;
+	margin-right:-15px;
+	padding:0px 6px 6px 0px;
+	color: black;
+	background:white;
+	-webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  CCborderRadius: 5px;
+}
+
+#page {
+	width: 770px;
+	margin: 0 auto;
+}
+
+#page h1, #page h2 {
+	margin-bottom: 20px;
+}
+
+#content {
+	float: right;
+	width: 490px;
+	padding: 20px;
+}
+
+#content ol, #content ul {
+	margin-left: 3em;
+}
+
+#sidebar {
+	float: right;
+	width: 200px;
+	padding: 20px;
+	margin-top:-5px;
+}
+
+#sidebar h2 {
+	padding-top: 6px;
+	font-size:20px;
+	font-weight: bold;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin: 10px 0 10px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px dashed #CCCCCC;
+}
+
+#sidebar h3 {
+	width: 58px;
+	height: 17px;
+	padding: 0 10px;
+	background: #ED2024 url('../images/left_padding.gif') no-repeat;
+	color: #FFFFFF;
+}
+
+#footer {
+	clear: both;
+	width: 770px;
+	height: 50px;
+	margin: 0 auto;
+	padding-top: 10px;
+	border-top: 5px solid #ED2024;
+}
+
+#footer p {
+	margin: 0;
+	padding: 0;
+	line-height: normal;
+	font-size: 77%;
+}
+
+#footer p a {
+  text-decoration:none;
+}
+
+#legal {
+	float: left;
+}
+
+#links {
+	float: right;	
+}
