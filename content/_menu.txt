@@ -1,7 +1,5 @@
 ---
-filter: 
-  - erb
-  - textile
+filter: erb
 ---
 <div>
   <ul>
