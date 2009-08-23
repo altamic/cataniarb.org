@@ -1,20 +1,13 @@
 ---
 filter: erb
 ---
-<div>
-  <ul>
-    <li class="round-item"><a href="index.html">News</a></li>
-  	<li class="round-item"><a href="mission.html">Obiettivi</a></li>
-  	<li class="round-item"><a href="activities.html">Attività</a></li>
-  	<li class="round-item"><a href="resources.html">Risorse</a></li>
-  	<li class="round-item"><a href="credits.html">Crediti</a></li>
-  </ul>
-</div>
-
-<div class="round-item">
-    <b>Iscriviti al <a href="http://groups.google.com/group/catania-ruby-user-group">Catania Ruby User Group</a></b>
-    <form action="http://groups.google.com/group/catania-ruby-user-group/boxsubscribe">
-    Email: <input type=text name=email>
-    <input type=submit name="sub" value="Iscriviti">
-  </form>
+<div id="menu">
+	<ul>
+		<li><a href="#">Obiettivi</a></li>
+		<li><a href="#">Attività</a></li>
+		<li><a href="#">Didattica</a></li>
+		<li><a href="#">Eventi</a></li>  			
+		<li><a href="#">Corsi</a></li>  			
+		<li><a href="#">Sponsors</a></li>
+	</ul>
 </div>

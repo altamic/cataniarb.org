@@ -152,15 +152,16 @@ a:visited {
 }
 
 #splash span p {
-  opacity: 0.5;
-  -moz-opacity: 0.5;
-  filter:alpha(opacity=50);
+  opacity: 0.65;
+  -moz-opacity: 0.65;
+  filter:alpha(opacity=65);
   text-align: right;
+  width:500px;
 	font-size: 14px;
 	font-weight: bold;
 	margin-top:-10px;
-	margin-right:-15px;
-	padding:0px 6px 6px 0px;
+	margin-left:-37px;
+	padding:0px 12px 6px 0px;
 	color: black;
 	background:white;
 	-webkit-border-radius: 5px;
