@@ -146,10 +146,13 @@ div#splash #announce {
   filter:alpha(opacity=60);
   display:inline;
   margin-left:20px;
-  margin-top:40px;
+  margin-top:80px;
   float:left;
   background: black;
   width:200px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  CCborderRadius: 5px;
 }
 #splash span {
 	float: right;
