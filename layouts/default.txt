@@ -59,10 +59,10 @@ filter: erb
   				<a href="/news.html#date-2009-06-29">From webby to adva_cms</a></li>
   			<li>
   				<h3>8 Maggio</h3>
-  				<a href="#">A pesca di pagine con Ruby</a></li>
+  				<a href="/news.html#date-2009-05-08">A pesca di pagine con Ruby</a></li>
   			<li>
   				<h3>7 Aprile</h3>
-  				<a href="#">Un rubino pasquale</a></li>
+  				<a href="/news.html#date-2009-04-07">Un rubino pasquale</a></li>
     			<li>
     				<h3>20 Marzo</h3>
     				<a href="/news.html#date-2009-03-19">Festa del papa' per il CRUG</a></li>  				

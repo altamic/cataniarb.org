@@ -8,5 +8,7 @@ filter:
 ---
 h1(title). <%= h(@page.title) %>
 
-Ringraziamo Convergent.it che partecipa alle spese di hosting e nome di dominio e
-Ephestus.it che fornisce i propri locali per i corsi introduttivi.
+Si ringraziano 
+
+Convergent.it (hosting e dominio)
+Ephestus.it   (locali per i corsi introduttivi)

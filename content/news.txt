@@ -19,7 +19,7 @@ Il 19 marzo e' il giorno della festa del papa' e quindi a nome dei rubysti che c
  -*Michelangelo*
  
 
-h2. CRUG: poco piu' di un mese di vita, <br/>ma tanta voglia di imparare e di scambiarsi esperienze.
+h2(#date-2009-02-27). CRUG: poco piu' di un mese di vita, <br/>ma tanta voglia di imparare e di scambiarsi esperienze.
 
 Nel tardo pomeriggio del 25 Febbraio scorso, ad un mese dalla fondazione del Catania Ruby User Group, un gruppo di rubisti entusiasti si e' incontrato nell'aula 124 della Facolta' di Informatica di Catania per conoscersi, parlare ed ascoltarsi. 
 
@@ -32,7 +32,7 @@ Grazie ragazzi, a presto!
  -*Michelangelo*
 
 
-h2. 25 Gennaio 2009: nasce catania.rb <br/>il Catania Ruby User Group 
+h2(#date-2009-01-25). 25 Gennaio 2009: nasce catania.rb <br/>il Catania Ruby User Group 
 
 Ciao! E' con estremo piacere che Enzo, Alessandro ed io annunciamo la nascita di *catania.rb*, il Catania Ruby User Group. Nasce per far conoscere ai programmatori catanesi la scandalosa piacevolezza della programmazione con "Ruby":http://en.wikipedia.org/wiki/Ruby_(programming_language, il linguaggio di programmazione realizzato da  "Yukihiro Matsumoto":http://en.wikipedia.org/wiki/Yukihiro_Matsumoto. Per far parte di catania.rb basta condividerne gli "obiettivi":mission.html ed iscriverti al "gruppo di discussione":mailto:catania-ruby-user-group@googlegroups.com. Puoi navigare sul sito per vedere le "attivita'":activities.html e le "risorse":resources.html disponibili o sottoscrivere il "newsfeed":http://groups.google.com/group/catania-ruby-user-group/feeds della mailing list per essere al corrente degli "argomenti di discussione":http://groups.google.com/group/catania-ruby-user-group.
  -*Michelangelo*
