@@ -37,6 +37,7 @@ filter: erb
     <%= render :partial => 'menu' %>
   </div>
   <div id="splash">
+    <div id="announce"><%= render :partial => 'next_meeting' %></div>
   	<span>
   	  <p>
   	    <em>&ldquo; when you don't create things, you become defined by
@@ -52,22 +53,7 @@ filter: erb
 
   	</div>
   	<div id="sidebar">
-  	  <h2><a href="/news.html">Ultime Notizie</a></h2>
-  		<ul>
-  			<li>
-  				<h3>29 Giugno</h3>
-  				<a href="/news.html#date-2009-06-29">From webby to adva_cms</a></li>
-  			<li>
-  				<h3>8 Maggio</h3>
-  				<a href="/news.html#date-2009-05-08">A pesca di pagine con Ruby</a></li>
-  			<li>
-  				<h3>7 Aprile</h3>
-  				<a href="/news.html#date-2009-04-07">Un rubino pasquale</a></li>
-    			<li>
-    				<h3>20 Marzo</h3>
-    				<a href="/news.html#date-2009-03-19">Festa del papa' per il CRUG</a></li>  				
-  		</ul>
-  		<%= render :partial => 'next_meeting' %>
+  		<%= render :partial => 'latest_news' %>
   		<h2><a href="http://groups.google.com/group/catania-ruby-user-group">Iscriviti al gruppo</a></h2> 
 
         <form action="http://groups.google.com/group/catania-ruby-user-group/boxsubscribe">
@@ -75,16 +61,13 @@ filter: erb
           <input type="submit" name="sub" value="Inserisci la tua email">
         </form>
         <br/>
-		  <h2>Amici</h2>
-		  
+		  <%= render :partial => 'friend_sites' %>
 		  <h2>Badge</h2>
 		  <a href="">Flicker</a>
-  		  
   	</div>
   </div>
   <div id="footer">
   	<p id="legal">Copyright &copy; 2009 <a href="">Convergent.it</a>. Tutti i diritti riservati.
-  	  
       <%= render :partial => 'footer_links' %>
   </div>
 </div>

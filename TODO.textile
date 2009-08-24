@@ -1,20 +1,13 @@
 Menu
 
-* Mission
- 
-* Activities
-    * Training
-    * Seminars
-    * Events
-* Jobs
-    * Propose yourself
-    * View current offers
-* Press
-  
-* Sponsors
- - convergent.it
- - Ruby Row
-* Credits
-    * Trademarks
-    * Disclaimer
+inserire jquery per
+
+mostrare una citazione casuale tra quelle presenti
+in citations.js
+
+cambiare ad ogni click cambiare le immagini dx
+e sx dello sfondo per 
+
+mostrare le notizie raggruppare e mostrarle con uno slide down
+al click sul titolo
 

@@ -4,9 +4,9 @@ filter:
   - textile
 ---
 
-h2(friend_sites). Amici
+h2(friend_sites). Siti Amici
 
-
-* Railscasts.com
-* Rubyflow.
-* github.com
+* "RailsBridge":http://railsbridge.com
+* "Railscasts":http://railscasts.com
+* "Rubyflow":http://rubyflow.com
+* "github":http://github.com

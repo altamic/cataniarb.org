@@ -14,44 +14,25 @@ h2. Introduzione a Rails
 
 Programma da definire
 
-h3. Materiale Didattico
-
-Da produrre
 
 h2. Sviluppo Agile Applicazioni Web con Ruby on Rails
 
 Programma da definire
 
-h3. Materiale Didattico
-
-Da produrre
 
 h2. Sviluppo Desktop su Mac OS X con MacRuby
 
 Programma da definire
 
-h3. Materiale Didattico
-
-Da produrre
-
 h2. Sviluppo Desktop multipiattaforma con Shoes
 
 Programma da definire
-
-h3. Materiale Didattico
-
-Da produrre
 
 h2. Sviluppo su dispositivi mobili con framework Rhodes
 
 Programma da definire
 
-h3. Materiale Didattico
+h1. Materiale Didattico
 
 Da produrre
-
-
-
- 
-
 
