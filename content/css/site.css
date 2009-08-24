@@ -35,17 +35,13 @@ a:link {
 	color: #0AAAFD;
 }
 
+a:visited {
+  color: #0AAAFD;
+}
+
 a:hover {
 	text-decoration: none;
 	color: #ED2024;
-}
-
-a:visited {
-  color: #0AAAFD;
-}
-
-a:visited {
-  color: #0AAAFD;
 }
 
 #container {
