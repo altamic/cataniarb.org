@@ -204,6 +204,8 @@ div#splash #announce {
 	float: right;
 	width: 490px;
 	padding: 20px;
+	min-height:540px;
+	background: transparent url('/images/ruby.png') no-repeat bottom right;
 }
 #content p {
   font-size:14px;
