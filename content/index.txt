@@ -1,5 +1,5 @@
 ---
-title:       catania.rb - Catania Ruby User Group
+title:       Catania Ruby User Group
 author:       Michelangelo Altamore
 created_at:  2009-01-12 14:06:40.000000 -06:00
 filter:
@@ -9,10 +9,7 @@ filter:
 
 h1(title). Benvenuto su Catania.rb!
 
-Ruby e' un linguaggio di programmazione semplice e divertente da usare.
-Conciso ed espressivo e' stato progettato per rendere la vita del programmatore 
-meno noiosa e piu' piacevole, consentendo di ridurre le complicazioni e ripetizioni dei
-moderni linguaggi ad oggetti.
+p<>. Ruby e' un linguaggio di programmazione semplice e divertente da usare. Conciso ed espressivo e' stato progettato per rendere la vita del programmatore piu' piacevole e meno noiosa, consentendo di ridurre le complicazioni e ripetizioni dei moderni linguaggi ad oggetti.
 
 Ruby sta conquistando il mondo e da poco ha anche conquistato Catania: 
 a Gennaio 2009[TODO: insert link] e' nato il Catania Ruby User Group.

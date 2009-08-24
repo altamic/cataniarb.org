@@ -7,7 +7,7 @@ filter: erb
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title><%= @page.title %></title>
+<title>Catania.rb - <%= @page.title %></title>
 <meta name="author" content="<%= @page.author %>" />
 <meta name="keywords" content="Ruby User Group Catania Italy, ruby programming language, computer science, software" />
 <meta name="description" content="Ruby User Group Catania Italy, ruby programming language, computer science, software" />
@@ -83,12 +83,7 @@ filter: erb
   	</div>
   </div>
   <div id="footer">
-  	<p id="legal">Copyright &copy; 2009 Catania.rb. All Rights Reserved. 
-  	  <br/>
-  	  Website powered by <a href="">Webby</a>. <br/>
-  	  Design based on <a href="http://www.freecsstemplates.org/">Conglomerate</a> 
-  	  tweaked by <a href="http://michelangelo.altamore.org">Michelangelo Altamore</a>. <br/>
-  	  Pictures by <a href="">Alessandro De Simone</a></p>
+  	<p id="legal">Copyright &copy; 2009 Catania.rb. All Rights Reserved.
   	  
       <%= render :partial => 'footer_links' %>
   </div>

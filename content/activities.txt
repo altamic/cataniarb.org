@@ -10,13 +10,13 @@ h1(title). <%= h(@page.title) %>
 
 h2. Appuntamenti 
 
-Il CRUG(Catania Ruby User Group) non ha ancora una sede fisica nella quale si incontra regolarmente. Se hai qualche idea o proposta in merito non esitare a comunicarcela in "mailing list":http://groups.google.com/group/catania-ruby-user-group.
+p<>. Il CRUG(Catania Ruby User Group) non ha ancora una sede fisica nella quale si incontra regolarmente. Se hai qualche idea o proposta in merito non esitare a comunicarcela in "mailing list":http://groups.google.com/group/catania-ruby-user-group.
 
-h2. Seminari
+h2. Hackfest
 
-E' attualmente in fase di preparazione un seminario introduttivo su argomenti scelti dalla comunita'.
 
-h2. Progetti
+h2. Traduzioni
 
-Siamo alla ricerca di volontari per contribuire alle traduzioni in italiano di materiale didattico che potrebbe essere utile a chi volesse imparare Ruby o Rails ma non mastica benissimo la lingua inglese.
+Se intendi unirti ai volontari per contribuire alle traduzioni in italiano di materiale didattico che potrebbe essere utile a chi volesse imparare Ruby o Rails ma non mastica 
+benissimo la lingua inglese, segnalacelo in "mailing list":http://groups.google.com/group/catania-ruby-user-group.
 

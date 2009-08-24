@@ -1,9 +1,10 @@
 ---
 filter: erb
 ---
+
 <p id="links">
   <a href="#">Termini d'uso</a> | 
   <a href="#">Riservatezza</a> | 
-  <a href="#">Crediti</a> |
-  <a href="#">Chi siamo</a>
+  <a href="/credits.html">Crediti</a> |
+  <a href="/who_we_are.html">Chi siamo</a>
 </p>

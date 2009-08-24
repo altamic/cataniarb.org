@@ -3,11 +3,11 @@ filter: erb
 ---
 <div id="menu">
 	<ul>
-		<li><a href="#">Obiettivi</a></li>
-		<li><a href="#">Attività</a></li>
-		<li><a href="#">Didattica</a></li>
-		<li><a href="#">Eventi</a></li>  			
-		<li><a href="#">Corsi</a></li>  			
-		<li><a href="#">Sponsors</a></li>
+		<li><a href="/mission.html">Obiettivi</a></li>
+		<li><a href="/activities.html">Attività</a></li>
+		<li><a href="/resources.html">Didattica</a></li>
+		<li><a href="/events.html">Eventi</a></li>  			
+		<li><a href="/courses.html">Corsi</a></li>  			
+		<li><a href="/sponsors.html">Sponsors</a></li>
 	</ul>
 </div>
