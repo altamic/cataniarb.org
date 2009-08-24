@@ -31,7 +31,7 @@ filter: erb
 <div id="container">
   <div id="header">
   	<div id="logo">
-  		<h1><a href="#">Catania.rb</a></h1>
+  		<h1><a href="/">Catania.rb</a></h1>
   		<h2>Catania Ruby User Group</h2>
   	</div>
     <%= render :partial => 'menu' %>
@@ -52,11 +52,11 @@ filter: erb
 
   	</div>
   	<div id="sidebar">
-  		<h2>News</h2>
+  		<h2><a href="/news.html">Ultime Notizie</a></h2>
   		<ul>
   			<li>
   				<h3>29 Giugno</h3>
-  				<a href="#">From webby to adva_cms</a></li>
+  				<a href="/news.html#date-2009-06-29">From webby to adva_cms</a></li>
   			<li>
   				<h3>8 Maggio</h3>
   				<a href="#">A pesca di pagine con Ruby</a></li>
@@ -65,25 +65,26 @@ filter: erb
   				<a href="#">Un rubino pasquale</a></li>
     			<li>
     				<h3>20 Marzo</h3>
-    				<a href="#">Festa del papa' per il CRUG</a></li>  				
+    				<a href="/news.html#date-2009-03-19">Festa del papa' per il CRUG</a></li>  				
   		</ul>
-  		<p><a href="#">Vedi le news precedenti..</a></p>
-  		<p><b>Iscriviti al <a href="http://groups.google.com/group/catania-ruby-user-group">Catania Ruby User Group</a></b>
+  		<h2><a href="http://groups.google.com/group/catania-ruby-user-group">Iscriviti al gruppo</a></h2> 
+
         <form action="http://groups.google.com/group/catania-ruby-user-group/boxsubscribe">
           <input type="text" name="email">
-          <input type="submit" name="sub" value="Iscriviti">
+          <input type="submit" name="sub" value="Inserisci la tua email">
         </form>
-  		</p>
-  		<p>
-  		  Trovaci su:<br/>
-  		  <a href="">Flicker</a> | 
-  		  <a href="">Google Groups</a> |
+        <br/>
+		  <h2>Amici</h2>
+		  
+		  <h2>Badge</h2>
+		  <a href="">Flicker</a>
+  		  
   		</p>
   		<p>
   	</div>
   </div>
   <div id="footer">
-  	<p id="legal">Copyright &copy; 2009 Catania.rb. All Rights Reserved.
+  	<p id="legal">Copyright &copy; 2009 <a href="">Convergent.it</a>. Tutti i diritti riservati.
   	  
       <%= render :partial => 'footer_links' %>
   </div>

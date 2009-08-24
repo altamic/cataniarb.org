@@ -8,13 +8,17 @@ filter:
 ---
 h1(title). <%= h(@page.title) %>
 
-Website powered by <a href="">Webby</a>. <br/>
-Design based on <a href="http://www.freecsstemplates.org/">Conglomerate</a> 
-tweaked by <a href="http://michelangelo.altamore.org">Michelangelo Altamore</a>. <br/>
-Pictures by <a href="">Alessandro De Simone</a></p>
+Questo sito Website powered by <a href="">Webby</a> un fantastico generatore di siti statici scritto da TwP.
 
+h2. Pictures
 
-h2(#logo-catania.rb). Ruby e u Tuppetturu
+Copyright by <a href="">Alessandro De Simone</a></p>
+
+h2. Design
+
+Design based on <a href="http://www.freecsstemplates.org/">Conglomerate</a>  tweaked by <a href="http://michelangelo.altamore.org">Michelangelo Altamore</a>.
+
+h2. Logo
 
 Cosa ci fa la "tradizionale trottola di legno siciliana":http://scn.wikipedia.org/wiki/Tuppètturu come logo di un Ruby User Group? A questa domanda risponde Alessandro, al quale e' venuta in mente l'idea, che nella mailing list spiega:
 

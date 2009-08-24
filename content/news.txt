@@ -1,0 +1,38 @@
+---
+title:      Ultime Notizie
+author:       Michelangelo Altamore
+created_at: 2009-01-18 00:25:50.867888 +01:00
+filter:
+  - erb
+  - textile
+---
+
+h1(title). <%= h(@page.title) %>
+
+
+
+h2(#date-2009-03-19). Festa del papa' per il CRUG
+
+Nel pomeriggio del 19 marzo, c'e' stato un nuovo incontro per i rubysti del CRUG(Catania Ruby User Group). L'incontro e' stato come al solito pervaso da quell'aura di entusiasmo che rende le cose ancor piu' divertenti di quanto non lo siano. Infatti dopo alcune spiegazioni di Enzo, per me (che sono arrivato in ritardo) e' stata la prima occasione  di fare un po' di live coding con "Rails":http://rubyonrails.org/, per realizzare l'ormai classico Blog. 
+Da quel che ho visto sembra che il live coding abbia suscitato molto interesse e non avendo dovuto schivare lattughe o pomodori volanti penso che riproporro' la cosa. Per cui munitevi di ortaggi e se non l'avete ancora fatto entrate in mailing list per le ultima novita'.
+Il 19 marzo e' il giorno della festa del papa' e quindi a nome dei rubysti che conosco colgo l'occasione per ringraziare "Matz":http://en.wikipedia.org/wiki/Yukihiro_Matsumoto, il papa' di Ruby. Grazie Matz!
+ -*Michelangelo*
+ 
+
+h2. CRUG: poco piu' di un mese di vita, <br/>ma tanta voglia di imparare e di scambiarsi esperienze.
+
+Nel tardo pomeriggio del 25 Febbraio scorso, ad un mese dalla fondazione del Catania Ruby User Group, un gruppo di rubisti entusiasti si e' incontrato nell'aula 124 della Facolta' di Informatica di Catania per conoscersi, parlare ed ascoltarsi. 
+
+Per rompere il ghiaccio si e' pensato bene di incominciare descrivendo il modo con cui ci siamo imbattuti in Ruby. Ho iniziato io parlando dell'uso di Ruby e Rails nelle mie esperienze lavorative; anche Alex ed Enzo hanno preso spunto dalle loro attivita' lavorative, per poi spostare l'attenzione su Rails ed sul paradigma "MVC":http://en.wikipedia.org/wiki/Model-view-controller che e' stato brevemente illustrato. 
+
+Poi sono intervenuto per enfatizzare la potente espressivita' del linguaggio, illustrando l'uso degli iteratori che consentono una flessibilita' non indifferente. L'incontro si e' concluso con una sintetica introduzione alle classi ed a come vengono mappate sulle tabelle di un database relazionale con "Active Record":http://en.wikipedia.org/wiki/Active_record_pattern,  design pattern reso famoso da "Martin Fowler":http://en.wikipedia.org/wiki/Martin_Fowler e "David":http://en.wikipedia.org/wiki/David_Heinemeier_Hansson.
+
+Le cose da dire erano tante ed il tempo a nostra disposizione e' passato velocemente, per cui ci siamo dati appuntamento a fine Marzo per organizzarci con proiettore e qualche breve presentazione.
+Grazie ragazzi, a presto!
+ -*Michelangelo*
+
+
+h2. 25 Gennaio 2009: nasce catania.rb <br/>il Catania Ruby User Group 
+
+Ciao! E' con estremo piacere che Enzo, Alessandro ed io annunciamo la nascita di *catania.rb*, il Catania Ruby User Group. Nasce per far conoscere ai programmatori catanesi la scandalosa piacevolezza della programmazione con "Ruby":http://en.wikipedia.org/wiki/Ruby_(programming_language, il linguaggio di programmazione realizzato da  "Yukihiro Matsumoto":http://en.wikipedia.org/wiki/Yukihiro_Matsumoto. Per far parte di catania.rb basta condividerne gli "obiettivi":mission.html ed iscriverti al "gruppo di discussione":mailto:catania-ruby-user-group@googlegroups.com. Puoi navigare sul sito per vedere le "attivita'":activities.html e le "risorse":resources.html disponibili o sottoscrivere il "newsfeed":http://groups.google.com/group/catania-ruby-user-group/feeds della mailing list per essere al corrente degli "argomenti di discussione":http://groups.google.com/group/catania-ruby-user-group.
+ -*Michelangelo*

@@ -5,9 +5,9 @@ filter: erb
 	<ul>
 		<li><a href="/mission.html">Obiettivi</a></li>
 		<li><a href="/activities.html">Attività</a></li>
-		<li><a href="/resources.html">Didattica</a></li>
 		<li><a href="/events.html">Eventi</a></li>  			
-		<li><a href="/courses.html">Corsi</a></li>  			
+		<li><a href="/courses.html">Corsi</a></li>
+		<li><a href="/resources.html">Risorse</a></li>			
 		<li><a href="/sponsors.html">Sponsors</a></li>
 	</ul>
 </div>
