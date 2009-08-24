@@ -1,7 +1,7 @@
 .DS_Store
 Sitefile
 drafts/**
-output/**
+output
 output/**/**
 TODO.*
 _stats.txt
