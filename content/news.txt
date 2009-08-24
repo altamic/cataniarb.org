@@ -1,5 +1,5 @@
 ---
-title:      Ultime Notizie
+title:      Notizie
 author:       Michelangelo Altamore
 created_at: 2009-01-18 00:25:50.867888 +01:00
 filter:
@@ -9,6 +9,21 @@ filter:
 
 h1(title). <%= h(@page.title) %>
 
+h2. A pesca di pagine con Ruby
+
+Il 7 Maggio scorso i rubyisti del CRUG presenti al nostro incontro hanno potuto vedere in azione <tt>nokogiri</tt>, che insieme a <tt>scrubyt</tt> e  <tt>hpricot</tt> del mitico "_why":http://whytheluckystiff.net/ sono le librerie piu' in voga per prelevare contenuto da una pagina web, operazione comunemente indicata con il termine _scraping_. Grazie ad Enzo per la intro!
+Dopo l'argomento scraping si e' passati a dare un'occhiata un po' piu' da vicino alle views in rails e ad alla flessibilita' che consentono quando si intende _rappresentare_
+una stessa risorsa in formati diversi, in puro stile REST. In particolare ci siamo soffermati sulle 4 azioni del controller (index, new, show, edit) che hanno un corrispettivo sulla view di un template e generare diverse rappresentazioni della singola risorsa (o della collezione di risorse per la index action) con il metodo <tt>respond_to</tt> per generare xml, un feed o javascript oltre al comune html. Cio' e' bastato per arrivare alla conclusione del tempo a disposizione per l'incontro che verra' ripetuto tra non molto. Per le ultime novita' consulta la mailing list! A presto!
+ -*Michelangelo*
+
+
+h2. Un rubino pasquale
+
+Anche se l'aula 124 del Dipartimento di Matematica non era proprio gremita, probabilmente per via della settimana  pasquale, anche nel pomeriggio del 7 Aprile, i rubyisti catanesi si sono incontrati per rivedere insieme alcuni concetti del linguaggio. Grazie all'aiuto di Enzo e Alex abbiamo spiegato alcuni concetti come Hash, simboli, scope delle variabili. Alessandro mi ha colpito per le sue spiegazioni semplici e chiare che io non sarei riuscito a improvvisare &#8212;lo dovrei registrare :)
+L'incontro e' andato avanti cosi' con spiegazioni e prove su irb, d'altra parte si sa se il cane e' il miglior amico dell'uomo, la console del nostro linguaggio preferito gioca un ruolo analogo per ogni rubyista. E questo vale anche quando si e' alle prime armi (o picconate :)
+Ci siamo poi congedati facendoci gli auguri di una santa Pasqua che porti serenita' nelle nostre famiglie.
+Alla prossima ragazzi!
+ -*Michelangelo*
 
 
 h2(#date-2009-03-19). Festa del papa' per il CRUG
@@ -19,7 +34,7 @@ Il 19 marzo e' il giorno della festa del papa' e quindi a nome dei rubysti che c
  -*Michelangelo*
  
 
-h2(#date-2009-02-27). CRUG: poco piu' di un mese di vita, <br/>ma tanta voglia di imparare e di scambiarsi esperienze.
+h2(#date-2009-02-27). CRUG: poco piu' di un mese di vita, ma tanta voglia di imparare
 
 Nel tardo pomeriggio del 25 Febbraio scorso, ad un mese dalla fondazione del Catania Ruby User Group, un gruppo di rubisti entusiasti si e' incontrato nell'aula 124 della Facolta' di Informatica di Catania per conoscersi, parlare ed ascoltarsi. 
 
@@ -32,7 +47,7 @@ Grazie ragazzi, a presto!
  -*Michelangelo*
 
 
-h2(#date-2009-01-25). 25 Gennaio 2009: nasce catania.rb <br/>il Catania Ruby User Group 
+h2(#date-2009-01-25). 25 Gennaio 2009: nasce catania.rb il Catania Ruby User Group 
 
 Ciao! E' con estremo piacere che Enzo, Alessandro ed io annunciamo la nascita di *catania.rb*, il Catania Ruby User Group. Nasce per far conoscere ai programmatori catanesi la scandalosa piacevolezza della programmazione con "Ruby":http://en.wikipedia.org/wiki/Ruby_(programming_language, il linguaggio di programmazione realizzato da  "Yukihiro Matsumoto":http://en.wikipedia.org/wiki/Yukihiro_Matsumoto. Per far parte di catania.rb basta condividerne gli "obiettivi":mission.html ed iscriverti al "gruppo di discussione":mailto:catania-ruby-user-group@googlegroups.com. Puoi navigare sul sito per vedere le "attivita'":activities.html e le "risorse":resources.html disponibili o sottoscrivere il "newsfeed":http://groups.google.com/group/catania-ruby-user-group/feeds della mailing list per essere al corrente degli "argomenti di discussione":http://groups.google.com/group/catania-ruby-user-group.
  -*Michelangelo*

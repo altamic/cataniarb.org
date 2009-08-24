@@ -1,0 +1,12 @@
+---
+filter:
+  - erb
+  - textile
+---
+
+h2(friend_sites). Amici
+
+
+* Railscasts.com
+* Rubyflow.
+* github.com

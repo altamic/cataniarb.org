@@ -8,36 +8,25 @@ filter:
 ---
 h1(title). <%= h(@page.title) %>
 
-Questo sito Website powered by <a href="">Webby</a> un fantastico generatore di siti statici scritto da TwP.
+Questo sito e' stato sviluppato con <a href="">Webby</a>, un fantastico generatore di siti statici per ruby scritto da Tim Pease.
 
-h2. Pictures
+h2. Sorgente
 
-Copyright by <a href="">Alessandro De Simone</a></p>
+Il codice sorgente e' disponibile su "github":http://github.com/michelangelo-altamore/cataniarb.
 
-h2. Design
+h2(#fotografie). Fotografie
 
-Design based on <a href="http://www.freecsstemplates.org/">Conglomerate</a>  tweaked by <a href="http://michelangelo.altamore.org">Michelangelo Altamore</a>.
+Le fotografie sono state prodotte da "Alessandro De Simone":http://twitter.com/alexdesi.
 
-h2. Logo
+h2(#design). Design
 
-Cosa ci fa la "tradizionale trottola di legno siciliana":http://scn.wikipedia.org/wiki/Tuppètturu come logo di un Ruby User Group? A questa domanda risponde Alessandro, al quale e' venuta in mente l'idea, che nella mailing list spiega:
+Lo style del sito si basa sul template "Conglomerate":http://www.freecsstemplates.org/ personalizzato ed adattato a cura di "Michelangelo Altamore":http://michelangelo.altamore.org.
 
-bq. Ruby e' un linguaggio inventato per rendere felici i programmatori, per ridurre le seccature tipiche dei moderni linguaggi di programmazione e rendere piacevole l'arte del programmare.
-Ti sembra esagerato? Questi sono gli obiettivi principali di chi ha progettato il linguaggio. Basta entrare in contatto con uno qualunque dei Ruby User Group, per accorgerti dell'entusiasmo dei partecipanti. Se prendi il simbolo di ruby e lo smussi un po' cosa ottieni?
+h2(#logo_crug). Logo
 
-bq. Se sei Siciliano, e magari non sei troppo giovane, la risposta e' scontata: un tuppetturu :-D (o tuppettu in alcune zone). 
-Una trottola in legno, un oggetto che ha saputo divertire generazione di bambini e adulti in Sicilia.
-Ed e' proprio questo il simbolo che e' stato scelto dal Catania Ruby User Group.
-Oltre alla forma, con un po' di fantasia :-) sono riuscito a trovare altre similitudini: il tuppetturu e' velocita', semplicita', equilibrio e tecnica.
+Il logo del CRUG(Catania Ruby USer Group) e' un'idea "concepita e realizzata":http:://ca  da "Alessandro De Simone":http://twitter.com/alexdesi.
 
-bq. L'iniziale semplicita' di Ruby permette un approccio molto diretto a chi vuole impararlo. Solo con la pratica pero' si apprezzerano gli aspetti piu' sottili del linguaggio, che lo rendono ben piu' espressivo e veloce di molti altri.
-Allo stesso modo i virtuosi del tuppetturu sanno che non e' difficile farlo girare a terra, ma riuscire a farlo saltare con la corda e continuare a farlo girare sulla mano e' un altra cosa: e' il frutto della pratica e della passione.
-
-bq. Ruby e' ovviamente piu' complesso di una trottola, ma se mio nonno con il tuppetturu e' capace di fantastiche performance, cosa sarete voi capaci di fare con Ruby?
-
-bq. --Alessandro
-
-h2(#trademarks). Marchi Registrati
+h2(#marchi_registrati). Marchi Registrati
 
 Ruby on Rails e' un marchio registrato da David Heineimer Hansson.
 

@@ -10,15 +10,25 @@ h1(title). <%= h(@page.title) %>
 
 p<>. Il CRUG(Catania Ruby User Group) si incontra regolarmente presso il dipartimento di Matematica e Informatica.
 
-h2. Hackfest
+h2. Programma 2009
 
-Si smanetta
+# Divulgare 
+# Promuovere le attivita' del CRUG
+# Organizzare una conferenza su Ruby 
 
+
+h3. Hackfest
+
+Si potra' assistere allo smanettamento in diretta con 
+
+# rails
 # shoes
 # rhodes
 
-h2. Traduzioni
+partecipa anche tu.
 
-Se intendi unirti ai volontari per contribuire alle traduzioni in italiano di materiale didattico che potrebbe essere utile a chi volesse imparare Ruby o Rails ma non mastica 
-benissimo la lingua inglese, segnalacelo in "mailing list":http://groups.google.com/group/catania-ruby-user-group.
+
+h3. Traduzioni
+
+p<>. Se intendi unirti ai volontari per contribuire alle traduzioni in italiano di materiale didattico che potrebbe essere utile a chi volesse imparare Ruby o Rails ma non mastica benissimo la lingua inglese, segnalacelo in "mailing list":http://groups.google.com/group/catania-ruby-user-group.
 

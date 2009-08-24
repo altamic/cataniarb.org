@@ -31,7 +31,7 @@ filter: erb
 <div id="container">
   <div id="header">
   	<div id="logo">
-  		<h1><a href="/">Catania.rb</a></h1>
+  		<h1><a href="/">catania.rb</a></h1>
   		<h2>Catania Ruby User Group</h2>
   	</div>
     <%= render :partial => 'menu' %>
@@ -45,14 +45,14 @@ filter: erb
   	    <br/>-- why, the lucky stiff
   	  </p>
   	</span>
-  </div>
+  </div>    
   <div id="page">
   	<div id="content">
   	  <%= @content %>
 
   	</div>
   	<div id="sidebar">
-  		<h2><a href="/news.html">Ultime Notizie</a></h2>
+  	  <h2><a href="/news.html">Ultime Notizie</a></h2>
   		<ul>
   			<li>
   				<h3>29 Giugno</h3>
@@ -67,6 +67,7 @@ filter: erb
     				<h3>20 Marzo</h3>
     				<a href="/news.html#date-2009-03-19">Festa del papa' per il CRUG</a></li>  				
   		</ul>
+  		<%= render :partial => 'next_meeting' %>
   		<h2><a href="http://groups.google.com/group/catania-ruby-user-group">Iscriviti al gruppo</a></h2> 
 
         <form action="http://groups.google.com/group/catania-ruby-user-group/boxsubscribe">
@@ -79,8 +80,6 @@ filter: erb
 		  <h2>Badge</h2>
 		  <a href="">Flicker</a>
   		  
-  		</p>
-  		<p>
   	</div>
   </div>
   <div id="footer">

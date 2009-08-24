@@ -9,13 +9,47 @@ filter:
 
 h1(title). <%= h(@page.title) %>
 
-h2. Corso introduttivo a ruby per programmatori php
 
-h2. Corso introduttivo a ruby per programmatori Java
+h2. Introduzione a Rails
 
-h2. Rails per principianti
+Programma da definire
 
-h1. Materiale Didattico
+h3. Materiale Didattico
+
+Da produrre
+
+h2. Sviluppo Agile Applicazioni Web con Ruby on Rails
+
+Programma da definire
+
+h3. Materiale Didattico
+
+Da produrre
+
+h2. Sviluppo Desktop su Mac OS X con MacRuby
+
+Programma da definire
+
+h3. Materiale Didattico
+
+Da produrre
+
+h2. Sviluppo Desktop multipiattaforma con Shoes
+
+Programma da definire
+
+h3. Materiale Didattico
+
+Da produrre
+
+h2. Sviluppo su dispositivi mobili con framework Rhodes
+
+Programma da definire
+
+h3. Materiale Didattico
+
+Da produrre
+
 
 
  

@@ -1,0 +1,15 @@
+---
+filter:
+  - erb
+  - textile
+---
+
+h2(next_meeting). Prossimo incontro
+
+<!--non e' stato ancora fissato, consulta la mailing list per maggiori informazioni. -->
+
+Fissato per giorno X alle ore Y presso ... 
+Non mancare!
+
+
+
