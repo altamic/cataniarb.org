@@ -31,6 +31,8 @@ h2. Sviluppo Desktop multipiattaforma con Shoes
 
 Programma da definire
 
+!{float:right}/images/rhodes.png!:http://www.rhomobile.com/
+
 h2. Sviluppo su dispositivi mobili con Rhodes
 
 Programma da definire
