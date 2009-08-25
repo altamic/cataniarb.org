@@ -8,16 +8,17 @@ filter:
 ---
 h1(title). <%= h(@page.title) %>
 
+*TODO*: Definire in dettaglio programma 2009
+
 p<>. Il CRUG(Catania Ruby User Group) si incontra regolarmente presso il dipartimento di Matematica e Informatica.
 
 h2. Programma 2009
 
-# Divulgare 
 # Promuovere le attivita' del CRUG
-# Organizzare una conferenza su Ruby 
+# Organizzare un seminario su Ruby all'universita' di Catania
 
 
-h3. Hackfest
+h3. Hackfest 
 
 Si potra' assistere allo smanettamento in diretta con 
 
@@ -25,8 +26,11 @@ Si potra' assistere allo smanettamento in diretta con
 # shoes
 # rhodes
 
-partecipa anche tu.
+o altri argomenti inerenti proposti dai presenti.
 
+h3. Troubleshooting
+
+Hai problemi con Ruby? Vieni e cercheremo di aiutare!
 
 h3. Traduzioni
 

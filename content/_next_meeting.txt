@@ -4,9 +4,9 @@ filter:
   - textile
 ---
 
-h2=(next_meeting). Prossimo incontro
 
-p=. non risulta ancora fissato, consulta la "mailing list":http://groups.google.com/group/catania-ruby-user-group per maggiori informazioni.
+p=(next_meeting). Il prossimo incontro non risulta ancora fissato, consulta la 
+"mailing list":http://groups.google.com/group/catania-ruby-user-group per maggiori informazioni.
 
 <!--Fissato per giorno X alle ore Y presso ... 
 Non mancare! -->

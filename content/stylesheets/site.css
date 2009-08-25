@@ -1,0 +1,280 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 20px 0;
+	background: #fff url('../images/bg.png') repeat-x;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #7F7777;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+	color: #ED2024;
+}
+
+h1 { font-size: 182%; }
+h2 { font-size: 122%; }
+h3 { font-size: 100%; }
+
+p, ul, ol {
+	margin-bottom: 20px;
+	line-height: 167%;
+	font-size: 85%;
+}
+
+a {
+  text-decoration:none;
+}
+
+a:link {
+	color: #0AAAFD;
+}
+
+a:visited {
+  color: #0AAAFD;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #ED2024;
+}
+
+#container {
+  background:#fafafa;
+  width:800px;
+  margin:auto;
+  /* Do rounding (native in Firefox and Safari, CC in IE) */
+  border:2px solid #e0e0e0;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  CCborderRadius: 15px;
+}
+
+#header {
+	width: 770px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+#header #logo {
+	float: left;
+	width: 240px;
+  height:100px;	
+	background: url('../images/cataniarb_logo.png') no-repeat left;
+}
+
+#header #logo h1 {
+  font-family: 'courier new', monospace;
+  font-weight:bold;
+  font-size:24px;
+	padding-top: 20px;
+	padding-left: 85px;
+	text-align: center;
+}
+
+#header #logo h1 a {
+	color: #000;  
+	text-decoration: none;
+}
+
+#header #logo h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #B3A7A0;
+	padding-left: 85px;	
+}
+
+#menu {
+  font-weight:bold;
+	float: left;
+	padding-left:-4px;
+	width: 525px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+  font-size:14px;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 50px;
+	padding: 30px 15px 0 15px;
+	background: url('../images/separator.gif') no-repeat;
+	text-decoration: none;
+	font-size: 114%;
+	color:#d1c8cb;
+}
+
+#menu a:hover {
+	color: #ED2024;
+  background: url('../images/menu_bg.png');
+}
+
+#splash {
+	width: 770px;
+	height: 180px;
+	margin: 0 auto;
+	background: url('../images/splash_left_02.jpg') no-repeat;
+	color:white;
+	text-align:center;
+  /*  rounded corner on the left */
+  
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-top-left-radius: 5px;
+  CCborderRadiusTL: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-bottom-left-radius: 5px;
+  CCborderRadiusBL: 5px;
+}
+div#splash #announce {
+  opacity: 0.6;
+  -moz-opacity: 0.6;
+  filter:alpha(opacity=60);
+  display:inline;
+  margin-left:20px;
+  margin-top:78px;
+  float:left;
+  background: black;
+  width:200px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  CCborderRadius: 5px;
+}
+#splash span {
+	float: right;
+	width: 460px;
+	height: 70px;
+	margin: 0;
+	padding: 110px 20px 0 50px;
+	background: #a8a8a8 url('../images/splash_right_02.jpg') no-repeat;
+	
+	/*  rounded corner on the right */
+	-webkit-border-top-right-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+  CCborderRadiusTR: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-bottom-right-radius: 5px;
+  CCborderRadiusBR: 5px;
+}
+
+#splash span p {
+  opacity: 0.65;
+  -moz-opacity: 0.65;
+  filter:alpha(opacity=65);
+  text-align: right;
+  width:500px;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top:-10px;
+	margin-left:-37px;
+	padding:0px 12px 6px 0px;
+	color: black;
+	background:white;
+	-webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  CCborderRadius: 5px;
+}
+
+
+#page {
+	width: 770px;
+	margin: 0 auto;
+}
+
+#page h1, #page h2 {
+	margin-bottom: 10px;
+}
+
+#content {
+	float: right;
+	width: 490px;
+	padding: 20px;
+	min-height:540px;
+	background: transparent url('/images/ruby.png') no-repeat bottom right;
+}
+#content p {
+  font-size:14px;
+}
+
+#content ol, #content ul {
+	margin-left: 3em;
+}
+
+#sidebar {
+	float: right;
+	width: 200px;
+	padding: 20px;
+	margin-top:-5px;
+}
+
+#sidebar h2 {
+	padding-top: 6px;
+	font-size:20px;
+	font-weight: bold;
+}
+
+#sidebar h2 a {
+  color:#ed2024;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin: 10px 0 10px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px dashed #CCCCCC;
+}
+
+#sidebar h3 {
+	width: 58px;
+	height: 17px;
+	padding: 0 10px;
+	background: #ED2024 url('../images/left_padding.gif') no-repeat;
+	color: #FFFFFF;
+}
+
+#footer {
+	clear: both;
+	width: 770px;
+	height: 50px;
+	margin: 0 auto;
+	padding-top: 10px;
+	border-top: 5px solid #ED2024;
+}
+
+#footer p {
+	margin: 0;
+	padding: 0;
+	line-height: normal;
+	font-size: 77%;
+}
+
+#footer p a {
+  text-decoration:none;
+}
+
+#legal {
+	float: left;
+}
+
+#links {
+	float: right;	
+}

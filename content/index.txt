@@ -10,8 +10,8 @@ filter:
 h1(title). Benvenuto su Catania.rb!
 
 
-p<>. Ruby e' un linguaggio di programmazione semplice e divertente da usare. Conciso ed espressivo e' stato progettato per rendere la vita del programmatore piu' piacevole e meno noiosa, consentendo di ridurre le complicazioni e ripetizioni dei moderni linguaggi ad oggetti.
+p<>. "Ruby":http://www.ruby-lang.org e' un linguaggio di programmazione semplice e divertente da usare. Conciso ed espressivo e' stato progettato per rendere la vita del programmatore piu' piacevole e meno noiosa, consentendo di ridurre le complicazioni e ripetizioni dei moderni linguaggi ad oggetti.
 
 Per saperne di piu' sfoglia le pagine del sito ed iscriviti alla "mailing list":http://groups.google.com/group/catania-ruby-user-group del gruppo. 
 
-TODO:foto rails, shoes, macruby 
+

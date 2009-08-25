@@ -1,11 +1,12 @@
 ---
 filter: erb
 ---
+
 <h2><a href="/news.html">Ultime Notizie</a></h2>
 <ul>
 	<li>
-		<h3>29 Giugno</h3>
-		<a href="/news.html#date-2009-06-29">From webby to adva_cms</a></li>
+		<h3>24 Agosto</h3>
+		<a href="/news.html#date-2009-08-24">CRUG website seconda versione</a></li>
 	<li>
 		<h3>8 Maggio</h3>
 		<a href="/news.html#date-2009-05-08">A pesca di pagine con Ruby</a></li>

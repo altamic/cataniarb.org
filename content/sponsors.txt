@@ -10,6 +10,11 @@ h1(title). <%= h(@page.title) %>
 
 Si ringraziano:
 
-Convergent.it (hosting/dominio, sponsorship corsi)
+h2=. Hosting/Dominio, Sponsorship corsi
 
-Ephestus.it  (locali per i corsi introduttivi)
+p=. !/images/convergent.png!:http://convergent.it
+
+
+
+
+<!-- Ephestus.it  (locali per i corsi introduttivi) -->

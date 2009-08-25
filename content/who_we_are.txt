@@ -9,15 +9,20 @@ title: Chi siamo
 
 h1(title). <%= h(@page.title) %>
 
+TODO: inserire breve info per Alex + foto (96 x 96) ed info per Enzo
+
+!{float:left;padding:4px}/images/michelangelo_altamore_face.png!
 
 h2. Michelangelo Altamore
 
-Appassionato di informatica, incomincia a lavorare come consulente per nello sviluppo di applicativi web aziendali. Insegnamento.  Gia' prima di laurearsi in Informatica, Esperienza
+p<>. Affascinato dalla programmazione, dopo il conseguimento della laurea, lavora come consulente per lo sviluppo di software per aziende, occupandosi anche di insegnamento. 
+
+!{float:right;padding:4px}/images/alessandro_de_simone_face.png!
 
 h2. Alessandro De Simone
 
-bq. Nullam mattis, odio ut tempus facilisis, metus nisl facilisis metus, auctor consectetuer felis ligula nec mauris. Vestibulum odio erat, fermentum at, commodo vitae, ultrices et, urna. Mauris vulputate, mi pulvinar sagittis condimentum, sem nulla aliquam velit, sed imperdiet mi purus eu magna. Nulla varius metus ut eros. Aenean aliquet magna eget orci. Class aptent taciti sociosqu ad litora.
+p<>. Nullam mattis, odio ut tempus facilisis, metus nisl facilisis metus, auctor consectetuer felis ligula nec mauris. Vestibulum odio erat, fermentum at. 
 
 h2. Vincenzo Rivello
 
-Vivamus euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse vel nibh ut turpis dictum sagittis. Aliquam vel velit a elit auctor sollicitudin. Nam vel dui vel neque lacinia pretium. Quisque nunc erat, venenatis id, volutpat ut, scelerisque sed, diam. Mauris ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec mattis. Morbi dignissim sollicitudin libero. Nulla lorem.
+Vivamus euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse vel nibh ut turpis dictum sagittis. 

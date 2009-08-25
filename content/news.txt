@@ -9,9 +9,12 @@ filter:
 
 h1(title). <%= h(@page.title) %>
 
+
 h2(#date-2009-08-24). CRUG website seconda versione
 
-Ciao ragazzi dopo alcuni input ho pensato bene di dare una rinfrescata estiva alla grafica del sito. propongo la seconda versione del sito, !/images/sample.jpg!
+!{float:right; margin:8px; padding:4px; clear:none}/images/catania_rb_first_design.png!
+
+p<>. Salve ragazzi, dopo alcuni consigli ed un po' di tempo libero, ho pensato bene di dare una rinfrescata alla grafica del sito durante questa calda estate 2009. Rispetto al precedente che vedete di fianco dovrebbe risultare piu' gradevole e professionale. I commenti sulla mailing list, ok? Come sarebbe a dire che non sei iscritto? Basta la tua email ed un click sul bottone di fianco! Ciao :)
  -*Michelangelo*
 
 h2(#date-2009-05-07). A pesca di pagine con Ruby
