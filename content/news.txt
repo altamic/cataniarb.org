@@ -29,7 +29,7 @@ In particolare ci siamo soffermati sulle 4 azioni del controller (index, new, sh
 h2(#date-2009-04-07). Un rubino pasquale
 
 Anche se l'aula 124 del Dipartimento di Matematica non era proprio gremita, probabilmente per via della settimana  pasquale, anche nel pomeriggio del 7 Aprile, i rubyisti catanesi si sono incontrati per rivedere insieme alcuni concetti del linguaggio. Grazie all'aiuto di Enzo e Alex abbiamo spiegato alcuni concetti come Hash, simboli, scope delle variabili. Alessandro mi ha colpito per le sue spiegazioni semplici e chiare che io non sarei riuscito a improvvisare &#8212;lo dovrei registrare :)
-L'incontro e' andato avanti cosi' con spiegazioni e prove su irb, d'altra parte si sa se il cane e' il miglior amico dell'uomo, la console del nostro linguaggio preferito gioca un ruolo analogo per ogni rubyista. E questo vale anche quando si e' alle prime armi (o picconate :)
+L'incontro e' andato avanti cosi' con spiegazioni e prove su irb, d'altra parte si sa che se il cane e' il miglior amico dell'uomo, la console del nostro linguaggio preferito gioca un ruolo analogo per ogni rubyista. E questo vale anche quando si e' alle prime armi (o picconate :)
 Ci siamo poi congedati facendoci gli auguri di una santa Pasqua che porti serenita' nelle nostre famiglie.
 Alla prossima ragazzi!
  -*Michelangelo*

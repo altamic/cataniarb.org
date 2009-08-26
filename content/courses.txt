@@ -11,19 +11,19 @@ h1(title). <%= h(@page.title) %>
 
 !{float:right}/images/rails.png!:http://rubyonrails.org/
 
-h2. Sviluppo Agile Applicazioni Web con Ruby on Rails
+h2. Sviluppo agile applicazioni web con Ruby on Rails
 
 Programma da definire
 
 !{float:right}/images/shoes-icon.png!
 
-h2. Sviluppo Desktop multipiattaforma con Shoes
+h2. Sviluppo desktop multipiattaforma con Shoes
 
 Programma da definire
 
 !{float:right}/images/macruby.png!:http://www.macruby.org/
 
-h2. Sviluppo Desktop su Mac OS X con MacRuby
+h2. Sviluppo desktop su Mac OS X con MacRuby
 
 Programma da definire
 

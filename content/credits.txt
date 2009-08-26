@@ -8,7 +8,7 @@ filter:
 ---
 h1(title). <%= h(@page.title) %>
 
-Questo sito e' stato sviluppato con <a href="">Webby</a>, un fantastico generatore di siti statici per ruby scritto da Tim Pease.
+Questo sito e' stato sviluppato con "Webby":http://github.com/TwP/webby/tree, un fantastico generatore di siti statici per ruby scritto da "Tim Pease":http://www.pea53.com/.
 
 h2. Sorgente
 
@@ -16,17 +16,17 @@ Il codice sorgente e' disponibile su "github":http://github.com/michelangelo-alt
 
 h2(#fotografie). Fotografie
 
-Le fotografie sono state prodotte da "Alessandro De Simone":http://twitter.com/alexdesi.
+Le fotografie sono state prodotte da "Alessandro De Simone":/who_we_are.html#alexdesi.
 
 h2(#design). Design
 
-Lo style del sito si basa sul template "Conglomerate":http://www.freecsstemplates.org/ personalizzato ed adattato a cura di "Michelangelo Altamore":http://michelangelo.altamore.org.
+Lo stile del sito si basa sul template "Conglomerate":http://www.freecsstemplates.org/ personalizzato ed adattato a cura di "Michelangelo Altamore":http://michelangelo.altamore.org.
 
 h2(#logo_crug). Logo
 
-Il logo del CRUG(Catania Ruby USer Group) e' un'idea "concepita e realizzata":http:://ca  da "Alessandro De Simone":http://twitter.com/alexdesi.
+Il logo del CRUG(Catania Ruby USer Group) e' un'idea "concepita e realizzata":http:://  da "Alessandro De Simone":http://twitter.com/alexdesi.
 
 h2(#marchi_registrati). Marchi Registrati
 
-Ruby on Rails e' un marchio registrato da David Heineimer Hansson.
+"Ruby on Rails":http://rubyonrails.org e' un marchio registrato da "David Heineimer Hansson":http://loudthinking.com.
 
