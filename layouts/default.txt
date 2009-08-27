@@ -63,7 +63,7 @@ filter: erb
         <br/>
 		  <%= render :partial => 'friend_sites' %>
 		  <h2>Badge</h2>
-		  <a href="">Flicker</a>
+		  <a href="http://flickr.com/photos/cataniarb">Flicker</a>
   	</div>
   </div>
   <div id="footer">

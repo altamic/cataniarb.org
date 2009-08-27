@@ -24,6 +24,5 @@ h2. Siti Web
 h2. Libri
 
 * "The Ruby Programming Language":http://oreilly.com/catalog/9780596516178/ di "David Flanagan":http://www.davidflanagan.com/ e "Yukihiro Matsumoto":http://en.wikipedia.org/wiki/Yukihiro_Matsumoto
-
 * "Programming Ruby":http://www.facebook.com/group.php?gid=44699307273 di Dave Thomas
 

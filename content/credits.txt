@@ -24,7 +24,7 @@ Lo stile del sito si basa sul template "Conglomerate":http://www.freecsstemplate
 
 h2(#logo_crug). Logo
 
-Il logo del CRUG(Catania Ruby USer Group) e' un'idea "concepita e realizzata":http:://  da "Alessandro De Simone":http://twitter.com/alexdesi.
+Il logo del CRUG(Catania Ruby USer Group) e' un'idea "concepita e realizzata":http://groups.google.com/group/catania-ruby-user-group/browse_thread/thread/11f7103ae691a491 da "Alessandro De Simone":http://twitter.com/alexdesi.
 
 h2(#marchi_registrati). Marchi Registrati
 
