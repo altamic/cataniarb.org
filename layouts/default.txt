@@ -50,12 +50,10 @@ filter: erb
   <div id="page">
   	<div id="content">
   	  <%= @content %>
-
   	</div>
   	<div id="sidebar">
   		<%= render :partial => 'latest_news' %>
   		<h2><a href="http://groups.google.com/group/catania-ruby-user-group">Iscriviti al gruppo</a></h2> 
-
         <form action="http://groups.google.com/group/catania-ruby-user-group/boxsubscribe">
           <input type="text" name="email">
           <input type="submit" name="sub" value="Inserisci la tua email">
