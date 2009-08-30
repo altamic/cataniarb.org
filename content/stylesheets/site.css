@@ -1,4 +1,3 @@
-
 * {
 	margin: 0;
 	padding: 0;
@@ -6,7 +5,7 @@
 
 body {
 	margin: 20px 0;
-	background: #fff url('../images/bg.png') repeat-x;
+	background: #fff url('/images/bg.png') repeat-x;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #7F7777;
@@ -65,7 +64,7 @@ a:hover {
 	float: left;
 	width: 240px;
   height:100px;	
-	background: url('../images/cataniarb_logo.png') no-repeat left;
+	background: url('/images/cataniarb_logo.png') no-repeat left;
 }
 
 #header #logo h1 {
@@ -113,7 +112,7 @@ a:hover {
 	float: left;
 	height: 50px;
 	padding: 30px 15px 0 15px;
-	background: url('../images/separator.gif') no-repeat;
+	background: url('/images/separator.gif') no-repeat;
 	text-decoration: none;
 	font-size: 114%;
 	color:#d1c8cb;
@@ -121,14 +120,14 @@ a:hover {
 
 #menu a:hover {
 	color: #ED2024;
-  background: url('../images/menu_bg.png');
+  background: url('/images/menu_bg.png');
 }
 
 #splash {
 	width: 770px;
 	height: 180px;
 	margin: 0 auto;
-	background: url('../images/splash_left_02.jpg') no-repeat;
+	background: url('/images/splash_left_2.jpg') no-repeat;
 	color:white;
 	text-align:center;
   /*  rounded corner on the left */
@@ -140,13 +139,15 @@ a:hover {
   -moz-border-bottom-left-radius: 5px;
   CCborderRadiusBL: 5px;
 }
-div#splash #announce {
-  opacity: 0.6;
-  -moz-opacity: 0.6;
-  filter:alpha(opacity=60);
+#announce {
+  color:white;
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+  filter:alpha(opacity=50);
+  padding: 0px 10px 0px 10px ;
   display:inline;
   margin-left:20px;
-  margin-top:78px;
+  margin-top:18px;
   float:left;
   background: black;
   width:200px;
@@ -160,7 +161,7 @@ div#splash #announce {
 	height: 70px;
 	margin: 0;
 	padding: 110px 20px 0 50px;
-	background: #a8a8a8 url('../images/splash_right_02.jpg') no-repeat;
+	background: #a8a8a8 url('/images/splash_right_2.jpg') no-repeat;
 	
 	/*  rounded corner on the right */
 	-webkit-border-top-right-radius: 5px;
@@ -247,7 +248,7 @@ div#splash #announce {
 	width: 58px;
 	height: 17px;
 	padding: 0 10px;
-	background: #ED2024 url('../images/left_padding.gif') no-repeat;
+	background: #ED2024 url('/images/left_padding.gif') no-repeat;
 	color: #FFFFFF;
 }
 

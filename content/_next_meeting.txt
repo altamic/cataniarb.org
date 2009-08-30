@@ -5,7 +5,7 @@ filter:
 ---
 
 
-p=(next_meeting). Il prossimo incontro non risulta ancora fissato, consulta la 
+p=(next_meeting). La data del prossimo incontro non risulta ancora fissata, consulta la 
 "mailing list":http://groups.google.com/group/catania-ruby-user-group per maggiori informazioni.
 
 <!--Fissato per giorno X alle ore Y presso ... 
