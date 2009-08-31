@@ -120,7 +120,7 @@ a:hover {
 
 #menu a:hover {
 	color: #ED2024;
-  background: url('/images/menu_bg.png');
+  background: transparent url('/images/menu_bg.png');
 }
 
 #splash {
@@ -130,6 +130,7 @@ a:hover {
 	background: url('/images/splash_left_2.jpg') no-repeat;
 	color:white;
 	text-align:center;
+	
   /*  rounded corner on the left */
   
   -webkit-border-top-left-radius: 5px;
@@ -140,16 +141,16 @@ a:hover {
   CCborderRadiusBL: 5px;
 }
 #announce {
-  color:white;
-  opacity: 0.5;
-  -moz-opacity: 0.5;
-  filter:alpha(opacity=50);
+  font-size:14px;
+  color:gray;
+
   padding: 0px 10px 0px 10px ;
   display:inline;
-  margin-left:20px;
-  margin-top:18px;
+  margin-left:10px;
+  margin-top:15px;
   float:left;
-  background: black;
+  background: white url('/images/menu_bg.png') repeat-x;
+  border: 1px dotted gray;
   width:200px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
