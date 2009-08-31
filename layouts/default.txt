@@ -22,8 +22,7 @@ filter: erb
 <script src="/javascripts/jquery.min.js" type="text/javascript"></script>
 
 <!-- Plugins -->
- <script src="/javascripts/plugins/preload_css_images.js" type="application/x-javascript"></script>
- <!-- script src="javascripts/plugins/curvycorners.js" type="text/javascript"></script -->
+<script src="/javascripts/plugins/preload_css_images.js" type="application/x-javascript"></script>
 
 <!-- Behaviour -->
 <script src="/javascripts/behaviour.js" type="application/x-javascript"></script>

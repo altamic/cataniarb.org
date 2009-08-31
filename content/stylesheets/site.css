@@ -246,11 +246,14 @@ a:hover {
 }
 
 #sidebar h3 {
-	width: 58px;
-	height: 17px;
-	padding: 0 10px;
-	background: #ED2024 url('/images/left_padding.gif') no-repeat;
+	width: 52px;
+	height: 18px;
+	padding: 0 28px;
+	background: #ED2024 url('/images/left_padding.png') no-repeat;
 	color: #FFFFFF;
+	-webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  CCborderRadius: 5px;
 }
 
 #footer {
