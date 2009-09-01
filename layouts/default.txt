@@ -61,8 +61,7 @@ filter: erb
         </form>
         <br/>
 		  <%= render :partial => 'friend_sites' %>
-		  <h2>Badge</h2>
-		  <a href="http://flickr.com/photos/cataniarb">Flicker</a>
+      <%= render :partial => 'flickr_badge' %>
   	</div>
   </div>
   <div id="footer">
