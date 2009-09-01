@@ -60,7 +60,7 @@ filter: erb
           <input type="submit" name="sub" value="Inserisci la tua email">
         </form>
         <br/>
-		  <%= render :partial => 'friend_sites' %>
+		  <%#= render :partial => 'friend_sites' %>
       <%= render :partial => 'flickr_badge' %>
   	</div>
   </div>
