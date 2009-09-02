@@ -13,13 +13,17 @@ TODO: inserire breve info per Alex + foto (96 x 96) ed info per Enzo
 
 h2(#michelangelo). Michelangelo Altamore
 
-p<>. Affascinato dalla programmazione, dopo il conseguimento della laurea, lavora come consulente per lo sviluppo di software per aziende, occupandosi anche di insegnamento. 
-
-!{float:right;padding:4px}/images/alessandro_de_simone_face.png!
+p<>. Affascinato dalla programmazione, dopo il conseguimento della laurea, lavoro come consulente per lo sviluppo di software aziendale e mi occupo anche di insegnamento. 
 
 h2(#alex). Alessandro De Simone
 
-p<>. Nullam mattis, odio ut tempus facilisis, metus nisl facilisis metus, auctor consectetuer felis ligula nec mauris. Vestibulum odio erat, fermentum at. 
+!{float:right;padding:4px}/images/alessandro_de_simone_face.png!
+
+p<>. Programmazione, grafica e Mountain Bike sono le mie passioni. 
+Mi piace la filosofia che sta dietro a Ruby: rendere la vita piu' semplice al programmatore. 
+Come molti, ho iniziato ad usarlo per poter realizzare web application con Rails, dato che altri framework come java+struts mi "stressavano" troppo.
+Dopo la laurea in Informatica ed un paio di anni di lavoro per aziende Software a Milano, sono tornato a Catania, dove lavoro per un'azienda che sviluppa sistemi di sicurezza. Avendo potuto scegliere i miei strumenti di lavoro, ho scelto Ruby on Rails, con il quali sto felicemente sviluppando da un anno.
+
 
 h2(#enzo). Vincenzo Rivello
 
