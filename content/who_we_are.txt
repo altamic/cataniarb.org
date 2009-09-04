@@ -9,7 +9,7 @@ h1(title). <%= h(@page.title) %>
 
 TODO: inserire breve info per Alex + foto (96 x 96) ed info per Enzo
 
-!{float:left;padding:4px}/images/michelangelo_altamore_face.png!
+!{float:left;padding:4px;width:96px;heigth:96px;}/images/michelangelo_altamore_face.png!
 
 h2(#michelangelo). Michelangelo Altamore
 
@@ -17,7 +17,7 @@ p<>. Affascinato dalla programmazione, dopo il conseguimento della laurea, lavor
 
 h2(#alex). Alessandro De Simone
 
-!{float:right;padding:4px}/images/alessandro_de_simone_face.png!
+!{float:right;padding:4px;width:96px;heigth:96px;}/images/alessandro_de_simone_face.png!
 
 p<>. Programmazione, grafica e Mountain Bike sono le mie passioni. 
 Mi piace la filosofia che sta dietro a Ruby: rendere la vita piu' semplice al programmatore. 
