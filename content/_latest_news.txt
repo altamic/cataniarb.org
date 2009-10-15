@@ -4,16 +4,24 @@ filter: erb
 
 <h2><a href="/news.html">Ultime Notizie</a></h2>
 <ul>
+  <li>
+		<h3>23 Sett.</h3>
+		<a href="/news.html#date-2009-09-23">Screencast di Enzo Rivello</a>
+	</li>
 	<li>
 		<h3>24 Agosto</h3>
-		<a href="/news.html#date-2009-08-24">CRUG website seconda versione</a></li>
+		<a href="/news.html#date-2009-08-24">CRUG website seconda versione</a>
+	</li>
 	<li>
 		<h3>8 Maggio</h3>
-		<a href="/news.html#date-2009-05-08">A pesca di pagine con Ruby</a></li>
+		<a href="/news.html#date-2009-05-08">A pesca di pagine con Ruby</a>
+	</li>
 	<li>
 		<h3>7 Aprile</h3>
-		<a href="/news.html#date-2009-04-07">Un rubino pasquale</a></li>
-		<li>
-			<h3>20 Marzo</h3>
-			<a href="/news.html#date-2009-03-20">Festa del papa' per il CRUG</a></li>  				
+		<a href="/news.html#date-2009-04-07">Un rubino pasquale</a>
+	</li>
+	<li>
+		<h3>20 Marzo</h3>
+		<a href="/news.html#date-2009-03-20">Festa del papa' per il CRUG</a>
+	</li>  				
 </ul>

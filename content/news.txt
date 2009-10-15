@@ -9,6 +9,13 @@ filter:
 
 h1(title). <%= h(@page.title) %>
 
+h2(#date-2009-09-23). On the Right Rails
+
+<object width="500" height="280"><param name="movie" value="http://www.youtube.com/v/JfT0Vs7SJaQ&hl=it&fs=1&"></param><param name="allowFullScreen" value="true"></paramram><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/JfT0Vs7SJaQ&hl=it&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="500" height="280"></embed></object>
+
+p<>. Cataniarb.org comincia una nuova rubrica: On The Right Rails, a cura di Enzo Rivello.
+Oggi faremo le basi, che serviranno a darvi una prospettiva della potenza di questo framework: il blog in 10....5...3 comandi.
+ -*Enzo*
 
 h2(#date-2009-08-24). CRUG website seconda versione
 
