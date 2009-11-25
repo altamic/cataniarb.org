@@ -9,6 +9,13 @@ filter:
 
 h1(title). <%= h(@page.title) %>
 
+h2(#date-2009-11-25). Apri il rubynetto! 
+
+!{float:right; margin:4px; padding:4px; clear:none}/images/rubynetto_logo.png!:http://rubynetto.cataniarb.org
+
+p<>. Cataniarb.org ha organizzato un breve corso su Ruby e Rails che si svolger&agrave; a Catania i primi giorni di Dicembre 2009. Per maggiori informazioni e iscrizioni visita il "sito dell'evento":http://rubynetto.cataniarb.org. Whooa!
+ -*Michelangelo*
+
 h2(#date-2009-09-23). On the Right Rails
 
 <object width="500" height="280"><param name="movie" value="http://www.youtube.com/v/JfT0Vs7SJaQ&hl=it&fs=1&"></param><param name="allowFullScreen" value="true"></paramram><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/JfT0Vs7SJaQ&hl=it&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="500" height="280"></embed></object>
