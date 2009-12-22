@@ -10,14 +10,13 @@ h1(title). <%= h(@page.title) %>
 
 p<>. Il CRUG(Catania Ruby User Group) si incontra (piu' o meno) regolarmente presso il dipartimento di Matematica e Informatica.
 
-h2. Programma 2009
-
-# Promuovere le attivita' del CRUG
-# Organizzare un seminario su Ruby all'universita' di Catania
-
 h2. Programma 2010
 
-Da discutere in mailing list.
+Da discutere in dettaglio in mailing list.
+
+# Promuovere le attivita' del CRUG
+# Organizzare un seminario su Ruby all'Universita' di Catania
+
 
 h3. Hackfest 
 
