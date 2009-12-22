@@ -7,7 +7,6 @@ filter:
 
 h1(title). <%= h(@page.title) %>
 
-TODO: inserire breve info per Alex + foto (96 x 96) ed info per Enzo
 
 !{float:left;padding:4px;width:96px;heigth:96px;}/images/michelangelo_altamore_face.png!
 
@@ -22,9 +21,9 @@ h2(#alex). Alessandro De Simone
 p<>. Programmazione, grafica e Mountain Bike sono le mie passioni. 
 Mi piace la filosofia che sta dietro a Ruby: rendere la vita piu' semplice al programmatore. 
 Come molti, ho iniziato ad usarlo per poter realizzare web application con Rails, dato che altri framework come java+struts mi "stressavano" troppo.
-Dopo la laurea in Informatica ed un paio di anni di lavoro per aziende Software a Milano, sono tornato a Catania, dove lavoro per un'azienda che sviluppa sistemi di sicurezza. Avendo potuto scegliere i miei strumenti di lavoro, ho scelto Ruby on Rails, con il quali sto felicemente sviluppando da un anno.
+Dopo la laurea in Informatica ed un paio di anni di lavoro per aziende Software a Milano, sono tornato a Catania, dove lavoro per un'azienda che sviluppa sistemi di sicurezza. Avendo potuto scegliere i miei strumenti di lavoro, ho scelto Ruby on Rails, con il quale sto felicemente sviluppando da un anno.
 
 
 h2(#enzo). Vincenzo Rivello
 
-Vivamus euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse vel nibh ut turpis dictum sagittis. 
+Laureatosi in Informatica Triennale nel novembre 2008, lavora come manager IT per  "Sefitalia":http://www.sefitalia.com/, per la quale ha programmato un sistema di Trading e uno per Videoconferenze.

@@ -7,12 +7,15 @@ filter:
 ---
 h1(title). <%= h(@page.title) %>
 
-TODO: mettere contenuti e definire info
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc congue ipsum vestibulum libero. Aenean vitae justo. Nam eget tellus. Etiam convallis, est eu lobortis mattis, lectus tellus tempus felis, a ultricies erat ipsum at metus.
+h2. Seminari
 
-h2. Conferences
+h3. Dicembre 2009
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi et risus. Aliquam nisl. Nulla facilisi. Cras accumsan vestibulum ante. Vestibulum sed tortor. Praesent tempus fringilla elit. Ut elit diam, sagittis in, nonummy in, gravida non, nunc. Ut orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nam egestas, orci eu imperdiet malesuada, nisl purus fringilla odio, quis commodo est orci vitae justo. Aliquam placerat odio tincidunt nulla. Cras in libero. Aenean rutrum, magna non tristique posuere, erat odio eleifend nisl, non convallis est tortor blandit ligula. Nulla id augue.
+!{float:right; margin:4px; padding:4px; clear:none}/images/rubynetto_logo.png!:http://rubynetto.cataniarb.org
 
+Un corso per incominciare l'uso del linguaggio di programmazione "Ruby":http://ruby-lang.org e 
+del framework "Rails":http://rubyonrails.org, rivolto a chi abbia una minima esperienza con la
+programmazione.
 
+Tra gli obiettivi del corso c'&egrave; quello di dare i primi rudimenti a chi intenda applicarsi su ruby, perch&eacute; ne condivide la "filosofia":http://en.wikipedia.org/wiki/Ruby_(programming_language)#Philosophy per essere nelle condizioni di programmare in modo semplice ed efficace.
