@@ -8,8 +8,6 @@ filter:
 ---
 h1(title). <%= h(@page.title) %>
 
-TODO: inserire fotografia di gruppo
-
 p<>. *catania.rb* altresi' indicato con CRUG(Catania Ruby User Group) e' formato da un gruppo di studenti, ricercatori, professionisti ed appassionati che decidono liberamente di dedicare una parte del proprio tempo per promuovere la diffusione e la conoscenza del linguaggio di programmazione Ruby tramite incontri, attivita' ed eventi.
 
 
