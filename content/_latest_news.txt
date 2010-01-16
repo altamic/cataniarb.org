@@ -5,6 +5,10 @@ filter: erb
 <h2><a href="/news.html">Ultime Notizie</a></h2>
 <ul>
   <li>
+		<h3>16 Gen.</h3>
+		<a href="/news.html#date-2010-01-16">Il CRUG sta per compiere un anno!</a>
+	</li>
+  <li>
 		<h3>25 Nov.</h3>
 		<a href="/news.html#date-2009-11-25">Apri il rubynetto!</a>
 	</li>

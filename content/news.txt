@@ -9,6 +9,18 @@ filter:
 
 h1(title). <%= h(@page.title) %>
 
+
+h2(#date-2010-01-16). Il CRUG sta per compiere un anno!
+
+!{float:right; margin:4px; padding:4px; clear:none}/images/2052055757_4e13e12c03_m.jpg!:http://www.flickr.com/photos/hfb/2052055757/sizes/s/
+
+p<>. Dopo aver chiuso il "rubynetto":http://rubynetto.cataniarb.org con successo (il materiale lo trovate su un "post in mailing list":http://groups.google.com/group/catania-ruby-user-group/browse_thread/thread/397315d7b226def1), si avvicina la fatidica data del 25 Gennaio, quando il nostro gruppo compira' il suo primo anno di vita. Qualcosa bolle in pentola? Sulla mailing list tutti i dettagli :)
+ -*Michelangelo*
+ 
+ 
+<br/>
+<br/>
+
 h2(#date-2009-11-25). Apri il rubynetto! 
 
 !{float:right; margin:4px; padding:4px; clear:none}/images/rubynetto_logo.png!:http://rubynetto.cataniarb.org
